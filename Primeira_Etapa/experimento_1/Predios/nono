@@ -1,0 +1,68 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Dataset_buildings_64-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/Dataset_buildings_64-weka.filters.unsupervised.instance.imagefilter.AutoColorCorrelogramFilter-D/home/sofia/topicos/Dataset_buildings_64-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    64
+Attributes:   1058
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Auto Color Correlogram228 <= 1
+|   Auto Color Correlogram630 <= 0
+|   |   Auto Color Correlogram581 <= 7
+|   |   |   Auto Color Correlogram984 <= 3
+|   |   |   |   MPEG-7 Color Layout16 <= 15
+|   |   |   |   |   Auto Color Correlogram556 <= 0
+|   |   |   |   |   |   MPEG-7 Color Layout20 <= 14: HIGH (6.0/1.0)
+|   |   |   |   |   |   MPEG-7 Color Layout20 > 14
+|   |   |   |   |   |   |   Auto Color Correlogram717 <= 0: LOW (15.0)
+|   |   |   |   |   |   |   Auto Color Correlogram717 > 0
+|   |   |   |   |   |   |   |   Auto Color Correlogram0 <= 6: HIGH (2.0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram0 > 6: LOW (3.0/1.0)
+|   |   |   |   |   Auto Color Correlogram556 > 0: HIGH (2.0)
+|   |   |   |   MPEG-7 Color Layout16 > 15: LOW (14.0)
+|   |   |   Auto Color Correlogram984 > 3: HIGH (3.0)
+|   |   Auto Color Correlogram581 > 7: HIGH (5.0)
+|   Auto Color Correlogram630 > 0: HIGH (3.0)
+Auto Color Correlogram228 > 1: HIGH (11.0)
+
+Number of Leaves  : 	10
+
+Size of the tree : 	19
+
+
+Time taken to build model: 0.04 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          11               57.8947 %
+Incorrectly Classified Instances         8               42.1053 %
+Kappa statistic                          0.1648
+Mean absolute error                      0.4211
+Root mean squared error                  0.6302
+Relative absolute error                 84.1163 %
+Root relative squared error            125.8756 %
+Total Number of Instances               19     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,667    0,500    0,545      0,667    0,600      0,169    0,611     0,572     LOW
+                 0,500    0,333    0,625      0,500    0,556      0,169    0,611     0,590     HIGH
+Weighted Avg.    0,579    0,412    0,587      0,579    0,577      0,169    0,611     0,582     
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 6 3 | a = LOW
+ 5 5 | b = HIGH
+

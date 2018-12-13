@@ -1,0 +1,80 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0
+Relation:     Dataset_a_b_1024-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.FCTHFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.JpegCoefficientFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.PHOGFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    1024
+Attributes:   1048
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+
+REPTree
+============
+
+PHOG364 < 0.5
+|   PHOG348 < 8.5
+|   |   PHOG23 < 5.5
+|   |   |   Histogram of JPEG Coefficients1 < 103
+|   |   |   |   MPEG-7 Color Layout21 < 19.5 : HIGH (3/0) [1/0]
+|   |   |   |   MPEG-7 Color Layout21 >= 19.5 : LOW (36/1) [23/7]
+|   |   |   Histogram of JPEG Coefficients1 >= 103 : LOW (47/21) [25/3]
+|   |   PHOG23 >= 5.5 : LOW (28/0) [13/5]
+|   PHOG348 >= 8.5 : HIGH (15/4) [3/0]
+PHOG364 >= 0.5
+|   Histogram of JPEG Coefficients63 < 9.5 : LOW (20/1) [14/4]
+|   Histogram of JPEG Coefficients63 >= 9.5
+|   |   Histogram of JPEG Coefficients67 < 112.5 : HIGH (200/58) [88/30]
+|   |   Histogram of JPEG Coefficients67 >= 112.5
+|   |   |   Histogram of JPEG Coefficients72 < 146.5
+|   |   |   |   Histogram of JPEG Coefficients85 < 166.5
+|   |   |   |   |   PHOG261 < 10.5
+|   |   |   |   |   |   PHOG128 < 1.5
+|   |   |   |   |   |   |   PHOG150 < 11.5 : LOW (33/1) [21/6]
+|   |   |   |   |   |   |   PHOG150 >= 11.5
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients28 < 44.5 : HIGH (6/0) [1/0]
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients28 >= 44.5 : LOW (3/0) [3/1]
+|   |   |   |   |   |   PHOG128 >= 1.5
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients37 < 145.5
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout27 < 22.5 : LOW (10/0) [11/2]
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout27 >= 22.5 : HIGH (152/65) [69/31]
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients37 >= 145.5
+|   |   |   |   |   |   |   |   PHOG30 < 5.5 : HIGH (2/0) [1/0]
+|   |   |   |   |   |   |   |   PHOG30 >= 5.5 : LOW (19/0) [12/4]
+|   |   |   |   |   PHOG261 >= 10.5 : LOW (17/0) [7/5]
+|   |   |   |   Histogram of JPEG Coefficients85 >= 166.5 : HIGH (9/0) [6/1]
+|   |   |   Histogram of JPEG Coefficients72 >= 146.5 : HIGH (82/25) [44/17]
+
+Size of the tree : 33
+
+Time taken to build model: 0.81 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         170               55.3746 %
+Incorrectly Classified Instances       137               44.6254 %
+Kappa statistic                          0.1032
+Mean absolute error                      0.4682
+Root mean squared error                  0.5247
+Relative absolute error                 93.57   %
+Root relative squared error            104.8428 %
+Total Number of Instances              307     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,497    0,394    0,537      0,497    0,516      0,103    0,587     0,536     LOW
+                 0,606    0,503    0,567      0,606    0,586      0,103    0,587     0,594     HIGH
+Weighted Avg.    0,554    0,451    0,553      0,554    0,552      0,103    0,587     0,566     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 73 74 |  a = LOW
+ 63 97 |  b = HIGH
+

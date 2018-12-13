@@ -1,0 +1,460 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     Dataset_a_b_1024-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.FCTHFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.JpegCoefficientFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.PHOGFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    1024
+Attributes:   1048
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+
+RandomTree
+==========
+
+PHOG236 < 2.5
+|   PHOG128 < 1.5
+|   |   PHOG93 < 3.5
+|   |   |   Histogram of JPEG Coefficients156 < 29
+|   |   |   |   PHOG337 < 2.5
+|   |   |   |   |   PHOG448 < 0.5 : LOW (12/0)
+|   |   |   |   |   PHOG448 >= 0.5
+|   |   |   |   |   |   Histogram of JPEG Coefficients104 < 225.5
+|   |   |   |   |   |   |   PHOG403 < 11
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients6 < 65
+|   |   |   |   |   |   |   |   |   PHOG424 < 0.5
+|   |   |   |   |   |   |   |   |   |   PHOG47 < 0.5 : LOW (2/0)
+|   |   |   |   |   |   |   |   |   |   PHOG47 >= 0.5 : HIGH (1/0)
+|   |   |   |   |   |   |   |   |   PHOG424 >= 0.5 : LOW (11/0)
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients6 >= 65
+|   |   |   |   |   |   |   |   |   PHOG543 < 1.5
+|   |   |   |   |   |   |   |   |   |   FCTH26 < 1.5 : LOW (8/0)
+|   |   |   |   |   |   |   |   |   |   FCTH26 >= 1.5 : HIGH (1/0)
+|   |   |   |   |   |   |   |   |   PHOG543 >= 1.5
+|   |   |   |   |   |   |   |   |   |   PHOG325 < 0.5 : HIGH (4/0)
+|   |   |   |   |   |   |   |   |   |   PHOG325 >= 0.5 : LOW (2/0)
+|   |   |   |   |   |   |   PHOG403 >= 11 : HIGH (2/0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients104 >= 225.5 : HIGH (2/0)
+|   |   |   |   PHOG337 >= 2.5
+|   |   |   |   |   PHOG281 < 2.5 : HIGH (5/0)
+|   |   |   |   |   PHOG281 >= 2.5 : LOW (1/0)
+|   |   |   Histogram of JPEG Coefficients156 >= 29
+|   |   |   |   Histogram of JPEG Coefficients64 < 2
+|   |   |   |   |   PHOG299 < 5 : LOW (3/0)
+|   |   |   |   |   PHOG299 >= 5
+|   |   |   |   |   |   PHOG564 < 1 : LOW (1/0)
+|   |   |   |   |   |   PHOG564 >= 1 : HIGH (2/0)
+|   |   |   |   Histogram of JPEG Coefficients64 >= 2
+|   |   |   |   |   PHOG545 < 10.5
+|   |   |   |   |   |   PHOG84 < 13.5 : LOW (43/0)
+|   |   |   |   |   |   PHOG84 >= 13.5
+|   |   |   |   |   |   |   PHOG68 < 3.5 : LOW (1/0)
+|   |   |   |   |   |   |   PHOG68 >= 3.5 : HIGH (1/0)
+|   |   |   |   |   PHOG545 >= 10.5
+|   |   |   |   |   |   PHOG63 < 3.5 : HIGH (1/0)
+|   |   |   |   |   |   PHOG63 >= 3.5 : LOW (1/0)
+|   |   PHOG93 >= 3.5
+|   |   |   PHOG71 < 3.5
+|   |   |   |   Histogram of JPEG Coefficients5 < 194.5
+|   |   |   |   |   PHOG365 < 9
+|   |   |   |   |   |   Histogram of JPEG Coefficients8 < 133.5 : HIGH (4/0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients8 >= 133.5
+|   |   |   |   |   |   |   PHOG329 < 2.5 : LOW (5/0)
+|   |   |   |   |   |   |   PHOG329 >= 2.5
+|   |   |   |   |   |   |   |   FCTH6 < 1.5 : LOW (4/0)
+|   |   |   |   |   |   |   |   FCTH6 >= 1.5
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients75 < 135 : HIGH (4/0)
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients75 >= 135 : LOW (2/0)
+|   |   |   |   |   PHOG365 >= 9 : HIGH (2/0)
+|   |   |   |   Histogram of JPEG Coefficients5 >= 194.5 : LOW (8/0)
+|   |   |   PHOG71 >= 3.5 : HIGH (3/0)
+|   PHOG128 >= 1.5
+|   |   FCTH80 < 0.5
+|   |   |   FCTH57 < 0.5
+|   |   |   |   FCTH14 < 2.5
+|   |   |   |   |   Histogram of JPEG Coefficients8 < 49.5 : LOW (13/0)
+|   |   |   |   |   Histogram of JPEG Coefficients8 >= 49.5
+|   |   |   |   |   |   Histogram of JPEG Coefficients20 < 174.5
+|   |   |   |   |   |   |   PHOG256 < 14.5
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients90 < 93
+|   |   |   |   |   |   |   |   |   PHOG116 < 7.5
+|   |   |   |   |   |   |   |   |   |   PHOG8 < 2.5
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients89 < 157
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG534 < 10.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG362 < 7.5 : LOW (21/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG362 >= 7.5 : HIGH (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG534 >= 10.5 : HIGH (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients89 >= 157
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG27 < 5.5 : HIGH (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG27 >= 5.5 : LOW (2/0)
+|   |   |   |   |   |   |   |   |   |   PHOG8 >= 2.5
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients112 < 88.5
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG58 < 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients32 < 27.5 : LOW (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients32 >= 27.5 : HIGH (6/0)
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG58 >= 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 < 20.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG410 < 4.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG142 < 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG128 < 7.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG162 < 2 : LOW (6/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG162 >= 2 : HIGH (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG128 >= 7.5 : HIGH (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG142 >= 2.5 : LOW (13/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG410 >= 4.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG405 < 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout16 < 18.5 : HIGH (8/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout16 >= 18.5 : LOW (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG405 >= 13 : LOW (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 >= 20.5 : HIGH (3/0)
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients112 >= 88.5
+|   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients191 < 158
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG225 < 7 : HIGH (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG225 >= 7 : LOW (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients191 >= 158
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG628 < 11 : HIGH (10/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG628 >= 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG476 < 4 : HIGH (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG476 >= 4 : LOW (2/0)
+|   |   |   |   |   |   |   |   |   PHOG116 >= 7.5 : LOW (8/0)
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients90 >= 93
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients95 < 131.5 : LOW (11/0)
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients95 >= 131.5
+|   |   |   |   |   |   |   |   |   |   PHOG28 < 9.5 : LOW (1/0)
+|   |   |   |   |   |   |   |   |   |   PHOG28 >= 9.5 : HIGH (1/0)
+|   |   |   |   |   |   |   PHOG256 >= 14.5 : HIGH (3/0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients20 >= 174.5 : LOW (8/0)
+|   |   |   |   FCTH14 >= 2.5
+|   |   |   |   |   Histogram of JPEG Coefficients10 < 97.5
+|   |   |   |   |   |   PHOG30 < 1.5
+|   |   |   |   |   |   |   PHOG353 < 4 : LOW (2/0)
+|   |   |   |   |   |   |   PHOG353 >= 4 : HIGH (1/0)
+|   |   |   |   |   |   PHOG30 >= 1.5
+|   |   |   |   |   |   |   PHOG73 < 0.5 : LOW (1/0)
+|   |   |   |   |   |   |   PHOG73 >= 0.5 : HIGH (12/0)
+|   |   |   |   |   Histogram of JPEG Coefficients10 >= 97.5
+|   |   |   |   |   |   PHOG403 < 7.5
+|   |   |   |   |   |   |   PHOG595 < 11.5 : LOW (8/0)
+|   |   |   |   |   |   |   PHOG595 >= 11.5 : HIGH (1/0)
+|   |   |   |   |   |   PHOG403 >= 7.5
+|   |   |   |   |   |   |   PHOG359 < 8 : HIGH (4/0)
+|   |   |   |   |   |   |   PHOG359 >= 8 : LOW (1/0)
+|   |   |   FCTH57 >= 0.5
+|   |   |   |   PHOG14 < 7.5 : LOW (2/0)
+|   |   |   |   PHOG14 >= 7.5 : HIGH (8/0)
+|   |   FCTH80 >= 0.5
+|   |   |   PHOG103 < 8.5
+|   |   |   |   PHOG182 < 3.5
+|   |   |   |   |   PHOG591 < 0.5
+|   |   |   |   |   |   PHOG91 < 5.5 : LOW (1/0)
+|   |   |   |   |   |   PHOG91 >= 5.5 : HIGH (4/0)
+|   |   |   |   |   PHOG591 >= 0.5 : HIGH (21/0)
+|   |   |   |   PHOG182 >= 3.5
+|   |   |   |   |   PHOG434 < 2.5 : HIGH (8/0)
+|   |   |   |   |   PHOG434 >= 2.5
+|   |   |   |   |   |   PHOG177 < 1.5 : LOW (4/0)
+|   |   |   |   |   |   PHOG177 >= 1.5
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients65 < 94
+|   |   |   |   |   |   |   |   PHOG215 < 1.5 : HIGH (2/0)
+|   |   |   |   |   |   |   |   PHOG215 >= 1.5 : LOW (3/0)
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients65 >= 94 : HIGH (7/0)
+|   |   |   PHOG103 >= 8.5
+|   |   |   |   MPEG-7 Color Layout27 < 34.5 : LOW (5/0)
+|   |   |   |   MPEG-7 Color Layout27 >= 34.5
+|   |   |   |   |   PHOG145 < 1.5 : LOW (2/0)
+|   |   |   |   |   PHOG145 >= 1.5 : HIGH (6/0)
+PHOG236 >= 2.5
+|   PHOG390 < 10.5
+|   |   PHOG228 < 2.5
+|   |   |   Histogram of JPEG Coefficients174 < 62.5
+|   |   |   |   Histogram of JPEG Coefficients62 < 27
+|   |   |   |   |   PHOG535 < 12.5 : LOW (9/0)
+|   |   |   |   |   PHOG535 >= 12.5
+|   |   |   |   |   |   PHOG58 < 12.5 : HIGH (2/0)
+|   |   |   |   |   |   PHOG58 >= 12.5 : LOW (1/0)
+|   |   |   |   Histogram of JPEG Coefficients62 >= 27 : LOW (13/0)
+|   |   |   Histogram of JPEG Coefficients174 >= 62.5
+|   |   |   |   Histogram of JPEG Coefficients134 < 46 : HIGH (4/0)
+|   |   |   |   Histogram of JPEG Coefficients134 >= 46
+|   |   |   |   |   PHOG496 < 1.5
+|   |   |   |   |   |   Histogram of JPEG Coefficients147 < 49
+|   |   |   |   |   |   |   PHOG210 < 5 : HIGH (1/0)
+|   |   |   |   |   |   |   PHOG210 >= 5
+|   |   |   |   |   |   |   |   PHOG493 < 2
+|   |   |   |   |   |   |   |   |   PHOG227 < 0.5
+|   |   |   |   |   |   |   |   |   |   PHOG113 < 2 : HIGH (1/0)
+|   |   |   |   |   |   |   |   |   |   PHOG113 >= 2 : LOW (2/0)
+|   |   |   |   |   |   |   |   |   PHOG227 >= 0.5 : LOW (5/0)
+|   |   |   |   |   |   |   |   PHOG493 >= 2 : HIGH (1/0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients147 >= 49 : LOW (12/0)
+|   |   |   |   |   PHOG496 >= 1.5
+|   |   |   |   |   |   PHOG151 < 11.5
+|   |   |   |   |   |   |   PHOG31 < 5.5
+|   |   |   |   |   |   |   |   PHOG72 < 8 : LOW (8/0)
+|   |   |   |   |   |   |   |   PHOG72 >= 8 : HIGH (1/0)
+|   |   |   |   |   |   |   PHOG31 >= 5.5
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients109 < 24.5 : HIGH (4/0)
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients109 >= 24.5
+|   |   |   |   |   |   |   |   |   PHOG89 < 10.5
+|   |   |   |   |   |   |   |   |   |   PHOG447 < 5.5
+|   |   |   |   |   |   |   |   |   |   |   PHOG325 < 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG144 < 3.5 : LOW (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG144 >= 3.5 : HIGH (3/0)
+|   |   |   |   |   |   |   |   |   |   |   PHOG325 >= 2.5 : LOW (7/0)
+|   |   |   |   |   |   |   |   |   |   PHOG447 >= 5.5 : HIGH (6/0)
+|   |   |   |   |   |   |   |   |   PHOG89 >= 10.5 : LOW (7/0)
+|   |   |   |   |   |   PHOG151 >= 11.5 : HIGH (5/0)
+|   |   PHOG228 >= 2.5
+|   |   |   PHOG42 < 1.5
+|   |   |   |   Histogram of JPEG Coefficients156 < 21 : HIGH (5/0)
+|   |   |   |   Histogram of JPEG Coefficients156 >= 21
+|   |   |   |   |   Histogram of JPEG Coefficients119 < 134 : LOW (13/0)
+|   |   |   |   |   Histogram of JPEG Coefficients119 >= 134
+|   |   |   |   |   |   Histogram of JPEG Coefficients71 < 148.5 : LOW (7/0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients71 >= 148.5
+|   |   |   |   |   |   |   PHOG28 < 9 : HIGH (4/0)
+|   |   |   |   |   |   |   PHOG28 >= 9 : LOW (1/0)
+|   |   |   PHOG42 >= 1.5
+|   |   |   |   PHOG32 < 13.5
+|   |   |   |   |   PHOG220 < 0.5 : LOW (4/0)
+|   |   |   |   |   PHOG220 >= 0.5
+|   |   |   |   |   |   Histogram of JPEG Coefficients117 < 1 : HIGH (7/0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients117 >= 1
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients189 < 199
+|   |   |   |   |   |   |   |   PHOG80 < 14.5
+|   |   |   |   |   |   |   |   |   PHOG377 < 13.5
+|   |   |   |   |   |   |   |   |   |   PHOG446 < 7.5
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients46 < 60.5
+|   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients121 < 38
+|   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients59 < 26.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG317 < 1.5 : HIGH (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG317 >= 1.5 : LOW (9/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients59 >= 26.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG185 < 6.5 : HIGH (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG185 >= 6.5 : LOW (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients121 >= 38
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG558 < 8.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG375 < 5.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG293 < 4.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients82 < 34 : HIGH (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients82 >= 34
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients41 < 121
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG332 < 6.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG230 < 4.5 : LOW (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG230 >= 4.5 : HIGH (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG332 >= 6.5 : LOW (5/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients41 >= 121 : HIGH (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG293 >= 4.5 : HIGH (11/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG375 >= 5.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients149 < 94 : HIGH (26/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients149 >= 94
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG248 < 3.5 : LOW (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG248 >= 3.5 : HIGH (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG558 >= 8.5 : LOW (2/0)
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients46 >= 60.5
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG622 < 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG88 < 4.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG67 < 9 : HIGH (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG67 >= 9 : LOW (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG88 >= 4.5 : LOW (7/0)
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG622 >= 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG42 < 11.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG194 < 13.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG20 < 9.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG340 < 4.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG145 < 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG198 < 0.5 : HIGH (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG198 >= 0.5 : LOW (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG145 >= 2.5 : HIGH (15/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG340 >= 4.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG417 < 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients182 < 106 : HIGH (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients182 >= 106
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG210 < 10 : LOW (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG210 >= 10 : HIGH (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG417 >= 2.5 : LOW (7/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG20 >= 9.5 : LOW (5/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG194 >= 13.5 : LOW (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG42 >= 11.5 : HIGH (4/0)
+|   |   |   |   |   |   |   |   |   |   PHOG446 >= 7.5
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients132 < 83.5
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG365 < 3.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG205 < 10.5 : HIGH (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG205 >= 10.5 : LOW (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG365 >= 3.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG125 < 14.5 : LOW (18/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG125 >= 14.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG99 < 11.5 : HIGH (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG99 >= 11.5 : LOW (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients132 >= 83.5
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG310 < 10.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG42 < 10.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG274 < 0.5 : LOW (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG274 >= 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG368 < 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG458 < 3.5 : HIGH (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG458 >= 3.5 : LOW (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG368 >= 2.5 : HIGH (7/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG42 >= 10.5 : HIGH (6/0)
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG310 >= 10.5 : LOW (3/0)
+|   |   |   |   |   |   |   |   |   PHOG377 >= 13.5 : HIGH (7/0)
+|   |   |   |   |   |   |   |   PHOG80 >= 14.5 : LOW (5/0)
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients189 >= 199 : HIGH (9/0)
+|   |   |   |   PHOG32 >= 13.5
+|   |   |   |   |   Histogram of JPEG Coefficients57 < 35 : LOW (2/0)
+|   |   |   |   |   Histogram of JPEG Coefficients57 >= 35 : HIGH (16/0)
+|   PHOG390 >= 10.5
+|   |   PHOG21 < 11.5
+|   |   |   Histogram of JPEG Coefficients173 < 13.5 : HIGH (6/0)
+|   |   |   Histogram of JPEG Coefficients173 >= 13.5
+|   |   |   |   PHOG162 < 9.5
+|   |   |   |   |   Histogram of JPEG Coefficients137 < 14 : HIGH (13/0)
+|   |   |   |   |   Histogram of JPEG Coefficients137 >= 14
+|   |   |   |   |   |   Histogram of JPEG Coefficients79 < 73.5
+|   |   |   |   |   |   |   PHOG54 < 2.5
+|   |   |   |   |   |   |   |   PHOG343 < 1.5 : HIGH (8/0)
+|   |   |   |   |   |   |   |   PHOG343 >= 1.5
+|   |   |   |   |   |   |   |   |   PHOG87 < 3.5 : HIGH (3/0)
+|   |   |   |   |   |   |   |   |   PHOG87 >= 3.5
+|   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients67 < 55
+|   |   |   |   |   |   |   |   |   |   |   PHOG256 < 0.5 : HIGH (2/0)
+|   |   |   |   |   |   |   |   |   |   |   PHOG256 >= 0.5 : LOW (1/0)
+|   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients67 >= 55 : LOW (4/0)
+|   |   |   |   |   |   |   PHOG54 >= 2.5
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients147 < 64.5 : LOW (13/0)
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients147 >= 64.5
+|   |   |   |   |   |   |   |   |   PHOG424 < 9.5
+|   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients107 < 82.5 : HIGH (6/0)
+|   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients107 >= 82.5 : LOW (2/0)
+|   |   |   |   |   |   |   |   |   PHOG424 >= 9.5 : LOW (4/0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients79 >= 73.5
+|   |   |   |   |   |   |   PHOG492 < 2.5
+|   |   |   |   |   |   |   |   PHOG487 < 4.5
+|   |   |   |   |   |   |   |   |   PHOG471 < 8.5
+|   |   |   |   |   |   |   |   |   |   PHOG115 < 3.5
+|   |   |   |   |   |   |   |   |   |   |   PHOG455 < 7.5
+|   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients93 < 61
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG614 < 8.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG282 < 10 : HIGH (11/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG282 >= 10 : LOW (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG614 >= 8.5 : LOW (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients93 >= 61
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG80 < 5 : LOW (5/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG80 >= 5 : HIGH (1/0)
+|   |   |   |   |   |   |   |   |   |   |   PHOG455 >= 7.5 : LOW (3/0)
+|   |   |   |   |   |   |   |   |   |   PHOG115 >= 3.5
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients87 < 163.5
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG22 < 4.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients140 < 112.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients168 < 190.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG339 < 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG403 < 0.5 : HIGH (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG403 >= 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG89 < 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG328 < 2.5 : HIGH (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG328 >= 2.5 : LOW (6/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG89 >= 13 : HIGH (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG339 >= 2.5 : HIGH (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients168 >= 190.5 : HIGH (5/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients140 >= 112.5 : LOW (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG22 >= 4.5 : HIGH (5/0)
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients87 >= 163.5 : HIGH (9/0)
+|   |   |   |   |   |   |   |   |   PHOG471 >= 8.5 : LOW (3/0)
+|   |   |   |   |   |   |   |   PHOG487 >= 4.5
+|   |   |   |   |   |   |   |   |   PHOG519 < 3.5 : LOW (6/0)
+|   |   |   |   |   |   |   |   |   PHOG519 >= 3.5
+|   |   |   |   |   |   |   |   |   |   PHOG21 < 4.5 : HIGH (1/0)
+|   |   |   |   |   |   |   |   |   |   PHOG21 >= 4.5 : LOW (1/0)
+|   |   |   |   |   |   |   PHOG492 >= 2.5
+|   |   |   |   |   |   |   |   PHOG480 < 13.5
+|   |   |   |   |   |   |   |   |   PHOG312 < 2.5
+|   |   |   |   |   |   |   |   |   |   PHOG155 < 2.5
+|   |   |   |   |   |   |   |   |   |   |   PHOG583 < 0.5 : LOW (2/0)
+|   |   |   |   |   |   |   |   |   |   |   PHOG583 >= 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG322 < 0.5 : LOW (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG322 >= 0.5 : HIGH (5/0)
+|   |   |   |   |   |   |   |   |   |   PHOG155 >= 2.5 : LOW (6/0)
+|   |   |   |   |   |   |   |   |   PHOG312 >= 2.5
+|   |   |   |   |   |   |   |   |   |   PHOG341 < 9.5
+|   |   |   |   |   |   |   |   |   |   |   PHOG410 < 3.5
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG455 < 3.5 : HIGH (8/0)
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG455 >= 3.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG414 < 3 : LOW (3/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG414 >= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG10 < 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients94 < 102 : HIGH (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients94 >= 102
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG138 < 5 : LOW (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG138 >= 5 : HIGH (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG10 >= 6 : LOW (1/0)
+|   |   |   |   |   |   |   |   |   |   |   PHOG410 >= 3.5 : HIGH (21/0)
+|   |   |   |   |   |   |   |   |   |   PHOG341 >= 9.5
+|   |   |   |   |   |   |   |   |   |   |   PHOG434 < 8
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG68 < 10.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG260 < 7.5 : HIGH (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG260 >= 7.5 : LOW (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG68 >= 10.5 : HIGH (3/0)
+|   |   |   |   |   |   |   |   |   |   |   PHOG434 >= 8 : LOW (4/0)
+|   |   |   |   |   |   |   |   PHOG480 >= 13.5
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients66 < 25 : LOW (2/0)
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients66 >= 25
+|   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients159 < 110.5 : HIGH (22/0)
+|   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients159 >= 110.5
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients124 < 126.5
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG276 < 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG390 < 14.5 : HIGH (2/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG390 >= 14.5 : LOW (4/0)
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG276 >= 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG408 < 0.5 : LOW (1/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG408 >= 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG469 < 12 : HIGH (16/0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG469 >= 12 : LOW (1/0)
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients124 >= 126.5 : HIGH (19/0)
+|   |   |   |   PHOG162 >= 9.5
+|   |   |   |   |   Histogram of JPEG Coefficients12 < 82.5
+|   |   |   |   |   |   PHOG55 < 14.5 : HIGH (7/0)
+|   |   |   |   |   |   PHOG55 >= 14.5 : LOW (1/0)
+|   |   |   |   |   Histogram of JPEG Coefficients12 >= 82.5
+|   |   |   |   |   |   PHOG0 < 7.5 : HIGH (1/0)
+|   |   |   |   |   |   PHOG0 >= 7.5
+|   |   |   |   |   |   |   PHOG481 < 12 : LOW (12/0)
+|   |   |   |   |   |   |   PHOG481 >= 12
+|   |   |   |   |   |   |   |   PHOG4 < 8.5 : LOW (2/0)
+|   |   |   |   |   |   |   |   PHOG4 >= 8.5 : HIGH (3/0)
+|   |   PHOG21 >= 11.5
+|   |   |   PHOG422 < 3.5 : HIGH (1/0)
+|   |   |   PHOG422 >= 3.5 : LOW (8/0)
+
+Size of the tree : 413
+
+Time taken to build model: 0.02 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         172               56.0261 %
+Incorrectly Classified Instances       135               43.9739 %
+Kappa statistic                          0.1216
+Mean absolute error                      0.4397
+Root mean squared error                  0.6631
+Relative absolute error                 87.8806 %
+Root relative squared error            132.5027 %
+Total Number of Instances              307     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,578    0,456    0,538      0,578    0,557      0,122    0,561     0,513     LOW
+                 0,544    0,422    0,584      0,544    0,563      0,122    0,561     0,555     HIGH
+Weighted Avg.    0,560    0,438    0,562      0,560    0,560      0,122    0,561     0,535     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 85 62 |  a = LOW
+ 73 87 |  b = HIGH
+

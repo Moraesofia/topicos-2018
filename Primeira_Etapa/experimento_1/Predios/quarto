@@ -1,0 +1,64 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Dataset_buildings_64-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/Dataset_buildings_64-weka.filters.unsupervised.instance.imagefilter.FuzzyOpponentHistogramFilter-D/home/sofia/topicos/Dataset_buildings_64-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    64
+Attributes:   610
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Fuzzy Opponent Histogram19 <= 0
+|   Fuzzy Opponent Histogram8 <= 61
+|   |   Fuzzy Opponent Histogram5 <= 0: LOW (8.0)
+|   |   Fuzzy Opponent Histogram5 > 0
+|   |   |   MPEG-7 Color Layout1 <= 11: LOW (7.0/1.0)
+|   |   |   MPEG-7 Color Layout1 > 11
+|   |   |   |   Fuzzy Opponent Histogram23 <= 51
+|   |   |   |   |   MPEG-7 Color Layout16 <= 13
+|   |   |   |   |   |   MPEG-7 Color Layout26 <= 16: HIGH (3.0)
+|   |   |   |   |   |   MPEG-7 Color Layout26 > 16: LOW (3.0)
+|   |   |   |   |   MPEG-7 Color Layout16 > 13: HIGH (25.0/1.0)
+|   |   |   |   Fuzzy Opponent Histogram23 > 51: LOW (3.0)
+|   Fuzzy Opponent Histogram8 > 61: LOW (11.0)
+Fuzzy Opponent Histogram19 > 0: HIGH (4.0)
+
+Number of Leaves  : 	8
+
+Size of the tree : 	15
+
+
+Time taken to build model: 0.02 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          11               57.8947 %
+Incorrectly Classified Instances         8               42.1053 %
+Kappa statistic                          0.1648
+Mean absolute error                      0.4357
+Root mean squared error                  0.633 
+Relative absolute error                 87.037  %
+Root relative squared error            126.4391 %
+Total Number of Instances               19     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,667    0,500    0,545      0,667    0,600      0,169    0,506     0,492     LOW
+                 0,500    0,333    0,625      0,500    0,556      0,169    0,506     0,556     HIGH
+Weighted Avg.    0,579    0,412    0,587      0,579    0,577      0,169    0,506     0,526     
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 6 3 | a = LOW
+ 5 5 | b = HIGH
+

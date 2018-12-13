@@ -1,0 +1,250 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Dataset_a_b_1024-weka.filters.unsupervised.instance.imagefilter.AutoColorCorrelogramFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.BinaryPatternsPyramidFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.EdgeHistogramFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.FCTHFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.FuzzyOpponentHistogramFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.JpegCoefficientFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.PHOGFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.SimpleColorHistogramFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    1024
+Attributes:   3548
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Spatial Pyramid of Local Binary Patterns575 <= 1
+|   FCTH26 <= 0
+|   |   Spatial Pyramid of Local Binary Patterns360 <= 4: LOW (63.0)
+|   |   Spatial Pyramid of Local Binary Patterns360 > 4
+|   |   |   RGB Color Histogram47 <= 1: LOW (3.0)
+|   |   |   RGB Color Histogram47 > 1: HIGH (2.0)
+|   FCTH26 > 0
+|   |   Auto Color Correlogram135 <= 2: LOW (10.0/1.0)
+|   |   Auto Color Correlogram135 > 2: HIGH (5.0)
+Spatial Pyramid of Local Binary Patterns575 > 1
+|   Auto Color Correlogram280 <= 7
+|   |   Fuzzy Opponent Histogram28 <= 0
+|   |   |   Auto Color Correlogram685 <= 0
+|   |   |   |   FCTH131 <= 0
+|   |   |   |   |   FCTH19 <= 5
+|   |   |   |   |   |   Auto Color Correlogram526 <= 10
+|   |   |   |   |   |   |   Auto Color Correlogram200 <= 9
+|   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns212 <= 3
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram243 <= 1
+|   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients72 <= 245
+|   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns140 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns524 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram356 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns380 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram706 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG413 <= 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH30 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram899 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG437 <= 11: LOW (68.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG437 > 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram5 <= 1: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram5 > 1: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram899 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG14 <= 7: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG14 > 7: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH30 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients131 <= 116: HIGH (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients131 > 116: LOW (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG413 > 12: HIGH (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram706 > 2: HIGH (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns380 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG146 <= 1: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG146 > 1: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram356 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram17 <= 0: HIGH (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram17 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns524 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns733 <= 0: HIGH (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns733 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns140 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram996 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG127 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns282 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns4 <= 6: LOW (20.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns4 > 6: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns282 > 0: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG127 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients161 <= 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH24 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns143 <= 7: LOW (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns143 > 7: HIGH (40.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH24 > 1: LOW (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients161 > 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns454 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram42 <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG383 <= 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG350 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns344 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG570 <= 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG570 > 0: LOW (19.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns344 > 0: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG350 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram723 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns48 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns274 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram297 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram529 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns573 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns197 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram569 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients34 <= 162
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG173 <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns514 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout24 <= 13: LOW (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout24 > 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG518 <= 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram344 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns406 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients59 <= 17: LOW (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients59 > 17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns730 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns677 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG261 <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns481 <= 1: HIGH (56.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns481 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram20 <= 63: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram20 > 63: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG261 > 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG20 <= 6: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG20 > 6: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns677 > 0: LOW (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns730 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram25 <= 0: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   RGB Color Histogram25 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns406 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH59 <= 0: LOW (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH59 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram344 > 0: LOW (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG518 > 10: LOW (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns514 > 1: LOW (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG173 > 5: HIGH (16.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients34 > 162: LOW (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram569 > 0: HIGH (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns197 > 0: HIGH (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns573 > 3: HIGH (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram529 > 2: HIGH (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram297 > 0: HIGH (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns274 > 0: HIGH (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns48 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram82 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram53 <= 6: LOW (18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram53 > 6: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram82 > 1: HIGH (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram723 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH35 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram898 <= 0: LOW (17.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram898 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH35 > 0: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG383 > 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns749 <= 0: LOW (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns749 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram42 > 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG65 <= 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns528 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram1021 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram104 <= 10: HIGH (49.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram104 > 10: LOW (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram1021 > 0: LOW (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns528 > 1: LOW (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG65 > 12: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns454 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns113 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH80 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG204 <= 12: LOW (18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG204 > 12: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH80 > 1: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns113 > 3: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram996 > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns236 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout28 <= 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout9 <= 12: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout9 > 12: LOW (27.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout28 > 18: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns236 > 0: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients72 > 245
+|   |   |   |   |   |   |   |   |   |   |   PHOG239 <= 13: HIGH (36.0)
+|   |   |   |   |   |   |   |   |   |   |   PHOG239 > 13
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG25 <= 4: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG25 > 4: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram243 > 1
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram397 <= 0
+|   |   |   |   |   |   |   |   |   |   |   FCTH49 <= 2: HIGH (28.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   FCTH49 > 2: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram397 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns212 > 3
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram496 <= 0
+|   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns306 <= 1
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram155 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns733 <= 2: LOW (33.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns733 > 2: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram155 > 3: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns306 > 1: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram496 > 0: HIGH (3.0)
+|   |   |   |   |   |   |   Auto Color Correlogram200 > 9
+|   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns173 <= 0
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram181 <= 0: LOW (21.0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram181 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns173 > 0: HIGH (2.0)
+|   |   |   |   |   |   Auto Color Correlogram526 > 10
+|   |   |   |   |   |   |   Auto Color Correlogram248 <= 0
+|   |   |   |   |   |   |   |   Auto Color Correlogram722 <= 1: LOW (25.0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram722 > 1: HIGH (2.0)
+|   |   |   |   |   |   |   Auto Color Correlogram248 > 0: HIGH (2.0)
+|   |   |   |   |   FCTH19 > 5
+|   |   |   |   |   |   FCTH79 <= 0
+|   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns743 <= 0
+|   |   |   |   |   |   |   |   PHOG323 <= 9: LOW (43.0)
+|   |   |   |   |   |   |   |   PHOG323 > 9: HIGH (3.0/1.0)
+|   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns743 > 0: HIGH (3.0/1.0)
+|   |   |   |   |   |   FCTH79 > 0: HIGH (3.0)
+|   |   |   |   FCTH131 > 0
+|   |   |   |   |   Auto Color Correlogram129 <= 1: HIGH (23.0/1.0)
+|   |   |   |   |   Auto Color Correlogram129 > 1: LOW (3.0)
+|   |   |   Auto Color Correlogram685 > 0
+|   |   |   |   FCTH10 <= 0: HIGH (23.0)
+|   |   |   |   FCTH10 > 0: LOW (2.0)
+|   |   Fuzzy Opponent Histogram28 > 0
+|   |   |   Spatial Pyramid of Local Binary Patterns730 <= 1: HIGH (26.0/1.0)
+|   |   |   Spatial Pyramid of Local Binary Patterns730 > 1: LOW (2.0)
+|   Auto Color Correlogram280 > 7: HIGH (30.0/1.0)
+
+Number of Leaves  : 	101
+
+Size of the tree : 	201
+
+
+Time taken to build model: 5.4 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.01 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         187               60.9121 %
+Incorrectly Classified Instances       120               39.0879 %
+Kappa statistic                          0.2181
+Mean absolute error                      0.3909
+Root mean squared error                  0.6093
+Relative absolute error                 78.1108 %
+Root relative squared error            121.744  %
+Total Number of Instances              307     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,612    0,394    0,588      0,612    0,600      0,218    0,596     0,547     LOW
+                 0,606    0,388    0,630      0,606    0,618      0,218    0,596     0,586     HIGH
+Weighted Avg.    0,609    0,391    0,610      0,609    0,609      0,218    0,596     0,567     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 90 57 |  a = LOW
+ 63 97 |  b = HIGH
+

@@ -1,0 +1,172 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.LMT -I -1 -M 15 -W 0.0
+Relation:     Dataset_a_b_1024-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.FCTHFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.JpegCoefficientFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.PHOGFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    1024
+Attributes:   1048
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Logistic model tree 
+------------------
+: LM_1:61/61 (1024)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class LOW :
+0.43 + 
+[PHOG30] * -0.02 +
+[PHOG120] * -0.01 +
+[PHOG150] * -0.01 +
+[PHOG162] * 0.02 +
+[PHOG196] * 0.02 +
+[PHOG228] * -0.02 +
+[PHOG269] * 0.01 +
+[PHOG307] * -0.02 +
+[PHOG317] * -0.02 +
+[PHOG329] * 0.01 +
+[PHOG348] * -0.02 +
+[PHOG384] * 0.02 +
+[PHOG390] * -0.02 +
+[PHOG398] * 0.02 +
+[PHOG402] * -0.02 +
+[PHOG424] * -0.02 +
+[PHOG442] * 0.02 +
+[PHOG457] * 0.02 +
+[PHOG463] * -0.03 +
+[PHOG480] * -0.01 +
+[PHOG494] * -0.02 +
+[PHOG506] * -0.05 +
+[PHOG527] * 0.02 +
+[PHOG582] * 0.02 +
+[PHOG625] * 0.02 +
+[Histogram of JPEG Coefficients1] * -0 +
+[Histogram of JPEG Coefficients20] * 0    +
+[Histogram of JPEG Coefficients26] * 0    +
+[Histogram of JPEG Coefficients31] * 0    +
+[Histogram of JPEG Coefficients63] * -0 +
+[Histogram of JPEG Coefficients67] * 0    +
+[Histogram of JPEG Coefficients72] * -0 +
+[Histogram of JPEG Coefficients104] * 0    +
+[Histogram of JPEG Coefficients160] * 0    +
+[Histogram of JPEG Coefficients189] * -0 +
+[FCTH0] * 0.04 +
+[FCTH2] * 0.04 +
+[FCTH8] * 0.04 +
+[FCTH13] * -0.11 +
+[FCTH19] * 0.08 +
+[FCTH26] * -0.14 +
+[FCTH30] * -0.07 +
+[FCTH33] * 0.11 +
+[FCTH35] * -0.22 +
+[FCTH40] * -0.65 +
+[FCTH47] * -0.48 +
+[FCTH49] * -0.15 +
+[FCTH56] * -0.09 +
+[FCTH62] * -0.15 +
+[FCTH80] * -0.38 +
+[FCTH92] * -0.38 +
+[FCTH104] * -0.19 +
+[FCTH121] * -0.1 +
+[FCTH151] * 0.44 +
+[FCTH179] * -0.78 +
+[MPEG-7 Color Layout3] * 0.02 +
+[MPEG-7 Color Layout11] * 0.04 +
+[MPEG-7 Color Layout24] * -0.02
+
+Class HIGH :
+-0.43 + 
+[PHOG30] * 0.02 +
+[PHOG120] * 0.01 +
+[PHOG150] * 0.01 +
+[PHOG162] * -0.02 +
+[PHOG196] * -0.02 +
+[PHOG228] * 0.02 +
+[PHOG269] * -0.01 +
+[PHOG307] * 0.02 +
+[PHOG317] * 0.02 +
+[PHOG329] * -0.01 +
+[PHOG348] * 0.02 +
+[PHOG384] * -0.02 +
+[PHOG390] * 0.02 +
+[PHOG398] * -0.02 +
+[PHOG402] * 0.02 +
+[PHOG424] * 0.02 +
+[PHOG442] * -0.02 +
+[PHOG457] * -0.02 +
+[PHOG463] * 0.03 +
+[PHOG480] * 0.01 +
+[PHOG494] * 0.02 +
+[PHOG506] * 0.05 +
+[PHOG527] * -0.02 +
+[PHOG582] * -0.02 +
+[PHOG625] * -0.02 +
+[Histogram of JPEG Coefficients1] * 0    +
+[Histogram of JPEG Coefficients20] * -0 +
+[Histogram of JPEG Coefficients26] * -0 +
+[Histogram of JPEG Coefficients31] * -0 +
+[Histogram of JPEG Coefficients63] * 0    +
+[Histogram of JPEG Coefficients67] * -0 +
+[Histogram of JPEG Coefficients72] * 0    +
+[Histogram of JPEG Coefficients104] * -0 +
+[Histogram of JPEG Coefficients160] * -0 +
+[Histogram of JPEG Coefficients189] * 0    +
+[FCTH0] * -0.04 +
+[FCTH2] * -0.04 +
+[FCTH8] * -0.04 +
+[FCTH13] * 0.11 +
+[FCTH19] * -0.08 +
+[FCTH26] * 0.14 +
+[FCTH30] * 0.07 +
+[FCTH33] * -0.11 +
+[FCTH35] * 0.22 +
+[FCTH40] * 0.65 +
+[FCTH47] * 0.48 +
+[FCTH49] * 0.15 +
+[FCTH56] * 0.09 +
+[FCTH62] * 0.15 +
+[FCTH80] * 0.38 +
+[FCTH92] * 0.38 +
+[FCTH104] * 0.19 +
+[FCTH121] * 0.1  +
+[FCTH151] * -0.44 +
+[FCTH179] * 0.78 +
+[MPEG-7 Color Layout3] * -0.02 +
+[MPEG-7 Color Layout11] * -0.04 +
+[MPEG-7 Color Layout24] * 0.02
+
+
+Time taken to build model: 32.49 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.05 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         198               64.4951 %
+Incorrectly Classified Instances       109               35.5049 %
+Kappa statistic                          0.292 
+Mean absolute error                      0.4229
+Root mean squared error                  0.467 
+Relative absolute error                 84.5124 %
+Root relative squared error             93.3072 %
+Total Number of Instances              307     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,687    0,394    0,616      0,687    0,650      0,294    0,717     0,709     LOW
+                 0,606    0,313    0,678      0,606    0,640      0,294    0,717     0,692     HIGH
+Weighted Avg.    0,645    0,352    0,648      0,645    0,645      0,294    0,717     0,700     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 101  46 |   a = LOW
+  63  97 |   b = HIGH
+

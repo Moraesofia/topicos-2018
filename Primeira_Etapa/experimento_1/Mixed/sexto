@@ -1,0 +1,72 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     animals_buildings-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/mixed-weka.filters.unsupervised.instance.imagefilter.JpegCoefficientFilter-D/home/sofia/topicos/mixed-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    128
+Attributes:   226
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Histogram of JPEG Coefficients51 <= 11
+|   Histogram of JPEG Coefficients64 <= 7: HIGH (3.0)
+|   Histogram of JPEG Coefficients64 > 7
+|   |   Histogram of JPEG Coefficients37 <= 13: LOW (41.0/1.0)
+|   |   Histogram of JPEG Coefficients37 > 13
+|   |   |   MPEG-7 Color Layout28 <= 15: HIGH (4.0)
+|   |   |   MPEG-7 Color Layout28 > 15: LOW (3.0)
+Histogram of JPEG Coefficients51 > 11
+|   Histogram of JPEG Coefficients0 <= 85
+|   |   MPEG-7 Color Layout7 <= 14: HIGH (22.0)
+|   |   MPEG-7 Color Layout7 > 14
+|   |   |   MPEG-7 Color Layout1 <= 11: LOW (4.0)
+|   |   |   MPEG-7 Color Layout1 > 11
+|   |   |   |   MPEG-7 Color Layout14 <= 17
+|   |   |   |   |   Histogram of JPEG Coefficients20 <= 185
+|   |   |   |   |   |   Histogram of JPEG Coefficients177 <= 87: HIGH (30.0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients177 > 87: LOW (3.0/1.0)
+|   |   |   |   |   Histogram of JPEG Coefficients20 > 185: LOW (3.0)
+|   |   |   |   MPEG-7 Color Layout14 > 17
+|   |   |   |   |   Histogram of JPEG Coefficients25 <= 41: HIGH (2.0)
+|   |   |   |   |   Histogram of JPEG Coefficients25 > 41: LOW (5.0)
+|   Histogram of JPEG Coefficients0 > 85: LOW (8.0/1.0)
+
+Number of Leaves  : 	12
+
+Size of the tree : 	23
+
+
+Time taken to build model: 0.02 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          29               76.3158 %
+Incorrectly Classified Instances         9               23.6842 %
+Kappa statistic                          0.5237
+Mean absolute error                      0.2456
+Root mean squared error                  0.4763
+Relative absolute error                 49.0667 %
+Root relative squared error             95.1319 %
+Total Number of Instances               38     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,722    0,200    0,765      0,722    0,743      0,524    0,779     0,734     LOW
+                 0,800    0,278    0,762      0,800    0,780      0,524    0,779     0,725     HIGH
+Weighted Avg.    0,763    0,241    0,763      0,763    0,763      0,524    0,779     0,729     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 13  5 |  a = LOW
+  4 16 |  b = HIGH
+

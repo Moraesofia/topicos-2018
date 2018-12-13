@@ -1,0 +1,342 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Dataset_a_b_1024-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.FCTHFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    1024
+Attributes:   226
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+FCTH131 <= 0
+|   FCTH176 <= 0
+|   |   FCTH49 <= 4
+|   |   |   FCTH38 <= 1
+|   |   |   |   FCTH34 <= 0
+|   |   |   |   |   FCTH79 <= 0
+|   |   |   |   |   |   FCTH19 <= 5
+|   |   |   |   |   |   |   FCTH43 <= 0
+|   |   |   |   |   |   |   |   FCTH13 <= 0
+|   |   |   |   |   |   |   |   |   FCTH80 <= 0
+|   |   |   |   |   |   |   |   |   |   FCTH57 <= 0
+|   |   |   |   |   |   |   |   |   |   |   FCTH12 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout10 <= 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH73 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH48 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH83 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH59 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH23 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH38 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout30 <= 13: LOW (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout30 > 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH35 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout12 <= 13: LOW (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout12 > 13: HIGH (10.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH35 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH38 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH23 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH59 > 0: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH83 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH48 > 0: LOW (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH73 > 1: HIGH (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout10 > 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout32 <= 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout6 <= 19
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout3 <= 19
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 <= 20
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH26 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH32 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout24 <= 14: HIGH (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout24 > 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH9 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH56 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH41 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout6 <= 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH15 <= 2: LOW (20.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH15 > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout27 <= 25: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout27 > 25: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout6 > 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout13 <= 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH7 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH16 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH8 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH2 <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout20 <= 15: HIGH (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout20 > 15: LOW (13.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH2 > 4: LOW (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH8 > 2: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH16 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH7 > 0: LOW (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout13 > 16: HIGH (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH41 > 0: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH56 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH7 <= 4: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH7 > 4: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH9 > 1: LOW (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH32 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout26 <= 19
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout11 <= 11: HIGH (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout11 > 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH16 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout15 <= 13: LOW (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout15 > 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout20 <= 13: LOW (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout20 > 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH18 <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH145 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH0 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH9 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 <= 13: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 > 13: HIGH (14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH9 > 1: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH0 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout12 <= 12: HIGH (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout12 > 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH44 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout22 <= 15
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH8 <= 4: HIGH (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH8 > 4: LOW (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout22 > 15: LOW (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH44 > 0: LOW (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH145 > 0: HIGH (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH18 > 5: HIGH (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH16 > 0: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout26 > 19: HIGH (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH26 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH74 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout22 <= 15: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout22 > 15
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout16 <= 13: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout16 > 13: LOW (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH74 > 0: HIGH (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 > 20
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH56 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH49 <= 0: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH49 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH56 > 0: HIGH (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout3 > 19
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH16 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout14 <= 19
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH56 <= 0: LOW (53.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH56 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH30 <= 0: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH30 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH6 <= 3: HIGH (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH6 > 3: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout14 > 19: HIGH (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH16 > 1: HIGH (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout6 > 19: LOW (17.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout32 > 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH23 <= 0: LOW (34.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH23 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH5 <= 2: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH5 > 2: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   FCTH12 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH9 <= 0: LOW (21.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH9 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH50 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH54 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout9 <= 11: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout9 > 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH14 <= 2: LOW (19.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH14 > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH10 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout13 <= 14: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout13 > 14: LOW (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH10 > 1: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH54 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH6 <= 4: HIGH (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH6 > 4: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH50 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   FCTH57 > 0
+|   |   |   |   |   |   |   |   |   |   |   FCTH15 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH0 <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout31 <= 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH50 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout28 <= 17: HIGH (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout28 > 17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH9 <= 3: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH9 > 3: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH50 > 0: LOW (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout31 > 16: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH0 > 5: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   FCTH15 > 1: LOW (3.0)
+|   |   |   |   |   |   |   |   |   FCTH80 > 0
+|   |   |   |   |   |   |   |   |   |   FCTH38 <= 0
+|   |   |   |   |   |   |   |   |   |   |   FCTH97 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH14 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout9 <= 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH2 <= 3: HIGH (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH2 > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 <= 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH1 <= 2: HIGH (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH1 > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout32 <= 15: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout32 > 15: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 > 16: LOW (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout9 > 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout12 <= 14: LOW (20.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout12 > 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout5 <= 11: HIGH (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout5 > 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout11 <= 13: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout11 > 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH25 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH5 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout28 <= 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout4 <= 16: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout4 > 16: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout28 > 14: LOW (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH5 > 1: HIGH (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH25 > 1: LOW (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH14 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH78 <= 0: HIGH (13.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH78 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   FCTH97 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH5 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH0 <= 4: HIGH (26.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH0 > 4: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH5 > 2: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   FCTH38 > 0: HIGH (11.0)
+|   |   |   |   |   |   |   |   FCTH13 > 0
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout11 <= 14: HIGH (14.0/1.0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout11 > 14
+|   |   |   |   |   |   |   |   |   |   FCTH23 <= 0
+|   |   |   |   |   |   |   |   |   |   |   FCTH61 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH31 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH30 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH36 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH97 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH12 <= 2: HIGH (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH12 > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 <= 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH38 <= 0: LOW (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH38 > 0: HIGH (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 > 16: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH97 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH36 > 0: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH30 > 0: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH31 > 0: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   FCTH61 > 0: LOW (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   FCTH23 > 0: LOW (2.0)
+|   |   |   |   |   |   |   FCTH43 > 0
+|   |   |   |   |   |   |   |   FCTH138 <= 0
+|   |   |   |   |   |   |   |   |   FCTH6 <= 2
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout5 <= 18: HIGH (16.0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout5 > 18: LOW (3.0/1.0)
+|   |   |   |   |   |   |   |   |   FCTH6 > 2: LOW (3.0)
+|   |   |   |   |   |   |   |   FCTH138 > 0: LOW (3.0)
+|   |   |   |   |   |   FCTH19 > 5
+|   |   |   |   |   |   |   FCTH3 <= 0
+|   |   |   |   |   |   |   |   FCTH97 <= 0
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout29 <= 10: LOW (30.0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout29 > 10
+|   |   |   |   |   |   |   |   |   |   FCTH8 <= 0: LOW (6.0)
+|   |   |   |   |   |   |   |   |   |   FCTH8 > 0: HIGH (3.0)
+|   |   |   |   |   |   |   |   FCTH97 > 0
+|   |   |   |   |   |   |   |   |   FCTH17 <= 0
+|   |   |   |   |   |   |   |   |   |   FCTH44 <= 1: LOW (8.0)
+|   |   |   |   |   |   |   |   |   |   FCTH44 > 1: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   FCTH17 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   FCTH3 > 0: HIGH (3.0/1.0)
+|   |   |   |   |   FCTH79 > 0
+|   |   |   |   |   |   MPEG-7 Color Layout17 <= 17
+|   |   |   |   |   |   |   FCTH3 <= 0
+|   |   |   |   |   |   |   |   FCTH26 <= 1
+|   |   |   |   |   |   |   |   |   FCTH23 <= 0
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout19 <= 13: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout19 > 13
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout14 <= 14: HIGH (10.0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout14 > 14
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout4 <= 13: LOW (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout4 > 13: HIGH (18.0/4.0)
+|   |   |   |   |   |   |   |   |   FCTH23 > 0: HIGH (6.0)
+|   |   |   |   |   |   |   |   FCTH26 > 1: LOW (2.0)
+|   |   |   |   |   |   |   FCTH3 > 0: HIGH (6.0)
+|   |   |   |   |   |   MPEG-7 Color Layout17 > 17: LOW (3.0)
+|   |   |   |   FCTH34 > 0
+|   |   |   |   |   MPEG-7 Color Layout2 <= 9: LOW (3.0)
+|   |   |   |   |   MPEG-7 Color Layout2 > 9
+|   |   |   |   |   |   FCTH78 <= 0
+|   |   |   |   |   |   |   FCTH6 <= 3
+|   |   |   |   |   |   |   |   FCTH20 <= 5
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout24 <= 13: LOW (2.0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout24 > 13
+|   |   |   |   |   |   |   |   |   |   FCTH80 <= 0: HIGH (20.0)
+|   |   |   |   |   |   |   |   |   |   FCTH80 > 0
+|   |   |   |   |   |   |   |   |   |   |   FCTH33 <= 1: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   FCTH33 > 1: LOW (2.0)
+|   |   |   |   |   |   |   |   FCTH20 > 5: LOW (2.0)
+|   |   |   |   |   |   |   FCTH6 > 3: LOW (2.0)
+|   |   |   |   |   |   FCTH78 > 0: HIGH (10.0)
+|   |   |   FCTH38 > 1
+|   |   |   |   FCTH4 <= 0
+|   |   |   |   |   FCTH38 <= 3
+|   |   |   |   |   |   MPEG-7 Color Layout15 <= 16: HIGH (22.0/1.0)
+|   |   |   |   |   |   MPEG-7 Color Layout15 > 16
+|   |   |   |   |   |   |   FCTH49 <= 0: LOW (2.0)
+|   |   |   |   |   |   |   FCTH49 > 0: HIGH (6.0/1.0)
+|   |   |   |   |   FCTH38 > 3: LOW (2.0)
+|   |   |   |   FCTH4 > 0: LOW (2.0)
+|   |   FCTH49 > 4
+|   |   |   MPEG-7 Color Layout23 <= 15
+|   |   |   |   MPEG-7 Color Layout9 <= 17: LOW (5.0)
+|   |   |   |   MPEG-7 Color Layout9 > 17: HIGH (3.0)
+|   |   |   MPEG-7 Color Layout23 > 15: HIGH (19.0)
+|   FCTH176 > 0
+|   |   FCTH79 <= 1
+|   |   |   FCTH81 <= 0
+|   |   |   |   MPEG-7 Color Layout4 <= 17: HIGH (47.0/4.0)
+|   |   |   |   MPEG-7 Color Layout4 > 17
+|   |   |   |   |   MPEG-7 Color Layout17 <= 15: LOW (4.0)
+|   |   |   |   |   MPEG-7 Color Layout17 > 15: HIGH (5.0/1.0)
+|   |   |   FCTH81 > 0: LOW (3.0/1.0)
+|   |   FCTH79 > 1
+|   |   |   FCTH26 <= 0: HIGH (2.0)
+|   |   |   FCTH26 > 0: LOW (4.0)
+FCTH131 > 0
+|   FCTH9 <= 5
+|   |   MPEG-7 Color Layout10 <= 12: LOW (3.0/1.0)
+|   |   MPEG-7 Color Layout10 > 12: HIGH (28.0/1.0)
+|   FCTH9 > 5: LOW (2.0)
+
+Number of Leaves  : 	147
+
+Size of the tree : 	293
+
+
+Time taken to build model: 0.25 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.01 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         179               58.3062 %
+Incorrectly Classified Instances       128               41.6938 %
+Kappa statistic                          0.1678
+Mean absolute error                      0.4182
+Root mean squared error                  0.6155
+Relative absolute error                 83.5759 %
+Root relative squared error            122.9946 %
+Total Number of Instances              307     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,612    0,444    0,559      0,612    0,584      0,169    0,582     0,536     LOW
+                 0,556    0,388    0,610      0,556    0,582      0,169    0,582     0,577     HIGH
+Weighted Avg.    0,583    0,415    0,585      0,583    0,583      0,169    0,582     0,557     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 90 57 |  a = LOW
+ 71 89 |  b = HIGH
+

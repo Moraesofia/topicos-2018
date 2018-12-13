@@ -1,0 +1,248 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Dataset_a_b_1024-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.FCTHFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.JpegCoefficientFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.PHOGFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    1024
+Attributes:   1048
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Histogram of JPEG Coefficients29 <= 3: LOW (26.0/1.0)
+Histogram of JPEG Coefficients29 > 3
+|   FCTH131 <= 0
+|   |   Histogram of JPEG Coefficients72 <= 245
+|   |   |   FCTH152 <= 0
+|   |   |   |   FCTH49 <= 4
+|   |   |   |   |   FCTH38 <= 1
+|   |   |   |   |   |   FCTH19 <= 5
+|   |   |   |   |   |   |   PHOG31 <= 0
+|   |   |   |   |   |   |   |   PHOG199 <= 8
+|   |   |   |   |   |   |   |   |   PHOG391 <= 7: LOW (26.0)
+|   |   |   |   |   |   |   |   |   PHOG391 > 7: HIGH (2.0)
+|   |   |   |   |   |   |   |   PHOG199 > 8: HIGH (2.0)
+|   |   |   |   |   |   |   PHOG31 > 0
+|   |   |   |   |   |   |   |   FCTH13 <= 0
+|   |   |   |   |   |   |   |   |   FCTH80 <= 0
+|   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients67 <= 75
+|   |   |   |   |   |   |   |   |   |   |   PHOG579 <= 9
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG392 <= 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG60 <= 3: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG60 > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients146 <= 119
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG522 <= 7: HIGH (39.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG522 > 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG30 <= 14: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG30 > 14: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients146 > 119: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG392 > 12: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   PHOG579 > 9: LOW (5.0)
+|   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients67 > 75
+|   |   |   |   |   |   |   |   |   |   |   FCTH57 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients134 <= 211
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH56 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout17 <= 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH43 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout32 <= 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout3 <= 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG18 <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG64 <= 1: LOW (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG64 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients144 <= 212: HIGH (25.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients144 > 212: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG18 > 7: LOW (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout3 > 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG413 <= 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout14 <= 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients1 <= 29
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG189 <= 2: HIGH (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG189 > 2: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients1 > 29
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG292 <= 9
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG33 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout16 <= 15: LOW (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout16 > 15: HIGH (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG33 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG521 <= 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG392 <= 13: LOW (81.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG392 > 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG118 <= 8: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG118 > 8: LOW (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG521 > 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG5 <= 11: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG5 > 11: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG292 > 9
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients85 <= 46: LOW (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients85 > 46: HIGH (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout14 > 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG34 <= 10: HIGH (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG34 > 10: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG413 > 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG28 <= 11: HIGH (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG28 > 11: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout32 > 16: LOW (21.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH43 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG228 <= 2: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG228 > 2: HIGH (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout17 > 18: LOW (18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH56 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH4 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH15 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG354 <= 0: HIGH (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG354 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG312 <= 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG422 <= 0: HIGH (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG422 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG504 <= 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG535 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients130 <= 209
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG421 <= 14: LOW (33.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG421 > 14: HIGH (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients130 > 209: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG535 > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients93 <= 26: LOW (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients93 > 26
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients37 <= 135
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients101 <= 125: HIGH (18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients101 > 125: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients37 > 135: LOW (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG504 > 12: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG312 > 11: HIGH (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH15 > 2: HIGH (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH4 > 0: LOW (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients134 > 211: LOW (20.0)
+|   |   |   |   |   |   |   |   |   |   |   FCTH57 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH17 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG40 <= 0: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG40 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG380 <= 13: HIGH (16.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG380 > 13: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH17 > 0: LOW (4.0)
+|   |   |   |   |   |   |   |   |   FCTH80 > 0
+|   |   |   |   |   |   |   |   |   |   FCTH14 <= 0
+|   |   |   |   |   |   |   |   |   |   |   PHOG458 <= 10
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG129 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH25 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH79 <= 0: LOW (25.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH79 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG489 <= 1: HIGH (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG489 > 1: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH25 > 2: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG129 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG476 <= 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout10 <= 15
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG388 <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout28 <= 15: HIGH (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout28 > 15
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH59 <= 0: LOW (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH59 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG388 > 4: HIGH (46.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout10 > 15
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG588 <= 2: LOW (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG588 > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG91 <= 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG253 <= 9
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG527 <= 13: HIGH (21.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG527 > 13: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG253 > 9: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG91 > 12: LOW (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG476 > 11: LOW (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   PHOG458 > 10: LOW (8.0)
+|   |   |   |   |   |   |   |   |   |   FCTH14 > 0
+|   |   |   |   |   |   |   |   |   |   |   PHOG36 <= 2: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   PHOG36 > 2: HIGH (30.0/1.0)
+|   |   |   |   |   |   |   |   FCTH13 > 0
+|   |   |   |   |   |   |   |   |   PHOG580 <= 9
+|   |   |   |   |   |   |   |   |   |   PHOG382 <= 13
+|   |   |   |   |   |   |   |   |   |   |   PHOG324 <= 11
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG33 <= 14: HIGH (36.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG33 > 14: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   PHOG324 > 11: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   PHOG382 > 13: LOW (4.0)
+|   |   |   |   |   |   |   |   |   PHOG580 > 9: LOW (6.0)
+|   |   |   |   |   |   FCTH19 > 5
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients64 <= 1: HIGH (4.0)
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients64 > 1
+|   |   |   |   |   |   |   |   FCTH92 <= 0
+|   |   |   |   |   |   |   |   |   PHOG3 <= 2
+|   |   |   |   |   |   |   |   |   |   PHOG74 <= 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   PHOG74 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   PHOG3 > 2: LOW (39.0)
+|   |   |   |   |   |   |   |   FCTH92 > 0: HIGH (3.0/1.0)
+|   |   |   |   |   FCTH38 > 1
+|   |   |   |   |   |   FCTH38 <= 3
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients189 <= 73
+|   |   |   |   |   |   |   |   PHOG15 <= 11: LOW (5.0)
+|   |   |   |   |   |   |   |   PHOG15 > 11: HIGH (3.0/1.0)
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients189 > 73: HIGH (22.0)
+|   |   |   |   |   |   FCTH38 > 3: LOW (2.0)
+|   |   |   |   FCTH49 > 4
+|   |   |   |   |   FCTH68 <= 0
+|   |   |   |   |   |   PHOG326 <= 10: HIGH (22.0)
+|   |   |   |   |   |   PHOG326 > 10: LOW (4.0/1.0)
+|   |   |   |   |   FCTH68 > 0: LOW (2.0)
+|   |   |   FCTH152 > 0
+|   |   |   |   PHOG177 <= 10
+|   |   |   |   |   PHOG534 <= 12
+|   |   |   |   |   |   MPEG-7 Color Layout12 <= 16: HIGH (33.0)
+|   |   |   |   |   |   MPEG-7 Color Layout12 > 16
+|   |   |   |   |   |   |   PHOG20 <= 5: LOW (5.0)
+|   |   |   |   |   |   |   PHOG20 > 5: HIGH (7.0)
+|   |   |   |   |   PHOG534 > 12: LOW (3.0)
+|   |   |   |   PHOG177 > 10: LOW (4.0)
+|   |   Histogram of JPEG Coefficients72 > 245
+|   |   |   FCTH18 <= 6
+|   |   |   |   MPEG-7 Color Layout20 <= 18
+|   |   |   |   |   PHOG239 <= 13
+|   |   |   |   |   |   Histogram of JPEG Coefficients114 <= 103: HIGH (54.0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients114 > 103
+|   |   |   |   |   |   |   PHOG2 <= 9: LOW (2.0)
+|   |   |   |   |   |   |   PHOG2 > 9: HIGH (2.0)
+|   |   |   |   |   PHOG239 > 13
+|   |   |   |   |   |   PHOG208 <= 7: HIGH (5.0)
+|   |   |   |   |   |   PHOG208 > 7: LOW (4.0)
+|   |   |   |   MPEG-7 Color Layout20 > 18: LOW (4.0/1.0)
+|   |   |   FCTH18 > 6: LOW (5.0/1.0)
+|   FCTH131 > 0
+|   |   Histogram of JPEG Coefficients68 <= 42: LOW (4.0)
+|   |   Histogram of JPEG Coefficients68 > 42: HIGH (29.0/1.0)
+
+Number of Leaves  : 	100
+
+Size of the tree : 	199
+
+
+Time taken to build model: 1.41 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         189               61.5635 %
+Incorrectly Classified Instances       118               38.4365 %
+Kappa statistic                          0.2341
+Mean absolute error                      0.3888
+Root mean squared error                  0.6023
+Relative absolute error                 77.7073 %
+Root relative squared error            120.3535 %
+Total Number of Instances              307     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,667    0,431    0,587      0,667    0,624      0,236    0,605     0,535     LOW
+                 0,569    0,333    0,650      0,569    0,607      0,236    0,605     0,620     HIGH
+Weighted Avg.    0,616    0,380    0,620      0,616    0,615      0,236    0,605     0,579     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 98 49 |  a = LOW
+ 69 91 |  b = HIGH
+

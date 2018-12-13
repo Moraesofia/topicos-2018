@@ -1,0 +1,76 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     animals_buildings-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/mixed-weka.filters.unsupervised.instance.imagefilter.PHOGFilter-D/home/sofia/topicos/mixed-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    128
+Attributes:   664
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+PHOG461 <= 0: LOW (23.0/1.0)
+PHOG461 > 0
+|   PHOG209 <= 11
+|   |   PHOG175 <= 8
+|   |   |   MPEG-7 Color Layout7 <= 12: HIGH (9.0)
+|   |   |   MPEG-7 Color Layout7 > 12
+|   |   |   |   MPEG-7 Color Layout1 <= 20
+|   |   |   |   |   PHOG532 <= 7
+|   |   |   |   |   |   PHOG228 <= 8
+|   |   |   |   |   |   |   PHOG391 <= 10
+|   |   |   |   |   |   |   |   PHOG55 <= 5
+|   |   |   |   |   |   |   |   |   PHOG57 <= 6
+|   |   |   |   |   |   |   |   |   |   PHOG541 <= 7
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout9 <= 13: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout9 > 13
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG512 <= 3: LOW (17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG512 > 3: HIGH (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   PHOG541 > 7: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   PHOG57 > 6: HIGH (5.0)
+|   |   |   |   |   |   |   |   PHOG55 > 5: LOW (14.0)
+|   |   |   |   |   |   |   PHOG391 > 10: HIGH (4.0)
+|   |   |   |   |   |   PHOG228 > 8: HIGH (4.0)
+|   |   |   |   |   PHOG532 > 7: HIGH (6.0)
+|   |   |   |   MPEG-7 Color Layout1 > 20: HIGH (9.0)
+|   |   PHOG175 > 8: LOW (10.0)
+|   PHOG209 > 11: HIGH (19.0)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	27
+
+
+Time taken to build model: 0.06 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          26               68.4211 %
+Incorrectly Classified Instances        12               31.5789 %
+Kappa statistic                          0.3667
+Mean absolute error                      0.3186
+Root mean squared error                  0.5574
+Relative absolute error                 63.6391 %
+Root relative squared error            111.325  %
+Total Number of Instances               38     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,667    0,300    0,667      0,667    0,667      0,367    0,689     0,615     LOW
+                 0,700    0,333    0,700      0,700    0,700      0,367    0,689     0,655     HIGH
+Weighted Avg.    0,684    0,318    0,684      0,684    0,684      0,367    0,689     0,636     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 12  6 |  a = LOW
+  6 14 |  b = HIGH
+

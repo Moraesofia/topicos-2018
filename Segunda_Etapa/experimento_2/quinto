@@ -1,0 +1,270 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Dataset_a_b_1024-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.FCTHFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.JpegCoefficientFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    1024
+Attributes:   418
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Histogram of JPEG Coefficients29 <= 3: LOW (26.0/1.0)
+Histogram of JPEG Coefficients29 > 3
+|   FCTH131 <= 0
+|   |   Histogram of JPEG Coefficients72 <= 245
+|   |   |   FCTH152 <= 0
+|   |   |   |   FCTH49 <= 4
+|   |   |   |   |   FCTH38 <= 1
+|   |   |   |   |   |   FCTH19 <= 5
+|   |   |   |   |   |   |   FCTH13 <= 0
+|   |   |   |   |   |   |   |   FCTH80 <= 0
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients67 <= 75
+|   |   |   |   |   |   |   |   |   |   FCTH8 <= 3
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients8 <= 32: LOW (5.0)
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients8 > 32
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH35 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients152 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients5 <= 62: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients5 > 62: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients152 > 1: HIGH (34.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH35 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout10 <= 13: HIGH (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout10 > 13: LOW (7.0)
+|   |   |   |   |   |   |   |   |   |   FCTH8 > 3: LOW (4.0)
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients67 > 75
+|   |   |   |   |   |   |   |   |   |   FCTH57 <= 0
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients134 <= 211
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH30 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH92 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout15 <= 13: LOW (17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout15 > 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout3 <= 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients111 <= 128
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH73 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout21 <= 44: LOW (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout21 > 44: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH73 > 1: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients111 > 128: HIGH (13.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout3 > 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients28 <= 107
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH59 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH23 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout32 <= 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout14 <= 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout30 <= 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH15 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH48 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH4 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout1 <= 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 <= 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients137 <= 84: HIGH (15.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients137 > 84: LOW (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 > 18: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout1 > 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients116 <= 93: LOW (20.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients116 > 93: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH4 > 0: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH48 > 0: LOW (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH15 > 0: LOW (26.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout30 > 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients28 <= 71: HIGH (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients28 > 71: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout14 > 18: HIGH (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout32 > 16: LOW (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH23 > 1: LOW (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH59 > 0: LOW (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients28 > 107: LOW (30.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH92 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH138 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 <= 17: HIGH (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 > 17: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH138 > 0: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH30 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout24 <= 20
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH7 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout11 <= 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients19 <= 48: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients19 > 48: HIGH (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout11 > 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients68 <= 167
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH17 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients31 <= 125
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients181 <= 60
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients5 <= 145: LOW (20.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients5 > 145: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients181 > 60
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH50 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout20 <= 17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients178 <= 132
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients137 <= 159
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients164 <= 29
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients107 <= 21: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients107 > 21: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients164 > 29: HIGH (25.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients137 > 159: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients178 > 132: LOW (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout20 > 17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH25 <= 2: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH25 > 2: LOW (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH50 > 0: HIGH (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients31 > 125: LOW (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH17 > 1: HIGH (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients68 > 167: LOW (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH7 > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout16 <= 17: LOW (21.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout16 > 17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients1 <= 224: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients1 > 224: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout24 > 20: HIGH (8.0)
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients134 > 211: LOW (22.0)
+|   |   |   |   |   |   |   |   |   |   FCTH57 > 0
+|   |   |   |   |   |   |   |   |   |   |   FCTH17 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH36 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients1 <= 71: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients1 > 71: HIGH (16.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH36 > 0: LOW (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   FCTH17 > 0: LOW (4.0)
+|   |   |   |   |   |   |   |   FCTH80 > 0
+|   |   |   |   |   |   |   |   |   FCTH8 <= 5
+|   |   |   |   |   |   |   |   |   |   FCTH81 <= 0
+|   |   |   |   |   |   |   |   |   |   |   FCTH14 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH10 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients57 <= 217
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH38 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH57 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH92 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients19 <= 150
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH35 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH7 <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH26 <= 0: HIGH (19.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH26 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients187 <= 152
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH42 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients1 <= 43: LOW (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients1 > 43: HIGH (23.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH42 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout20 <= 16: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout20 > 16: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients187 > 152: LOW (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH7 > 4: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH35 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients53 <= 61: LOW (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients53 > 61: HIGH (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients19 > 150: LOW (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH92 > 0: HIGH (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH57 > 0: HIGH (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH38 > 0: HIGH (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients57 > 217: LOW (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH10 > 1: HIGH (6.0)
+|   |   |   |   |   |   |   |   |   |   |   FCTH14 > 1: HIGH (10.0)
+|   |   |   |   |   |   |   |   |   |   FCTH81 > 0
+|   |   |   |   |   |   |   |   |   |   |   FCTH82 <= 0: LOW (6.0)
+|   |   |   |   |   |   |   |   |   |   |   FCTH82 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   FCTH8 > 5
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout20 <= 14: LOW (16.0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout20 > 14
+|   |   |   |   |   |   |   |   |   |   |   FCTH49 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH20 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout31 <= 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients169 <= 119
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients168 <= 49
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients51 <= 25: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients51 > 25: HIGH (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients168 > 49: LOW (21.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients169 > 119: HIGH (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout31 > 16: LOW (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH20 > 3: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   FCTH49 > 1: HIGH (3.0)
+|   |   |   |   |   |   |   FCTH13 > 0
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients18 <= 100
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients191 <= 92: LOW (2.0)
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients191 > 92
+|   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients168 <= 7: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients168 > 7: HIGH (30.0)
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients18 > 100
+|   |   |   |   |   |   |   |   |   FCTH145 <= 0
+|   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients44 <= 128: LOW (11.0)
+|   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients44 > 128: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   FCTH145 > 0: HIGH (4.0/1.0)
+|   |   |   |   |   |   FCTH19 > 5
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients64 <= 1: HIGH (4.0)
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients64 > 1
+|   |   |   |   |   |   |   |   FCTH92 <= 0: LOW (43.0/2.0)
+|   |   |   |   |   |   |   |   FCTH92 > 0: HIGH (3.0/1.0)
+|   |   |   |   |   FCTH38 > 1
+|   |   |   |   |   |   FCTH38 <= 3
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients189 <= 73
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients187 <= 48: HIGH (3.0/1.0)
+|   |   |   |   |   |   |   |   Histogram of JPEG Coefficients187 > 48: LOW (5.0)
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients189 > 73: HIGH (22.0)
+|   |   |   |   |   |   FCTH38 > 3: LOW (2.0)
+|   |   |   |   FCTH49 > 4
+|   |   |   |   |   FCTH68 <= 0
+|   |   |   |   |   |   Histogram of JPEG Coefficients144 <= 63: HIGH (24.0/1.0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients144 > 63: LOW (2.0)
+|   |   |   |   |   FCTH68 > 0: LOW (2.0)
+|   |   |   FCTH152 > 0
+|   |   |   |   Histogram of JPEG Coefficients152 <= 176
+|   |   |   |   |   Histogram of JPEG Coefficients49 <= 181
+|   |   |   |   |   |   Histogram of JPEG Coefficients70 <= 222: HIGH (39.0/1.0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients70 > 222: LOW (4.0/1.0)
+|   |   |   |   |   Histogram of JPEG Coefficients49 > 181: LOW (5.0/1.0)
+|   |   |   |   Histogram of JPEG Coefficients152 > 176: LOW (4.0)
+|   |   Histogram of JPEG Coefficients72 > 245
+|   |   |   FCTH18 <= 6
+|   |   |   |   MPEG-7 Color Layout20 <= 18
+|   |   |   |   |   MPEG-7 Color Layout0 <= 11
+|   |   |   |   |   |   FCTH9 <= 0
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients140 <= 55: HIGH (6.0)
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients140 > 55: LOW (2.0)
+|   |   |   |   |   |   FCTH9 > 0: LOW (2.0)
+|   |   |   |   |   MPEG-7 Color Layout0 > 11
+|   |   |   |   |   |   MPEG-7 Color Layout3 <= 23: HIGH (53.0)
+|   |   |   |   |   |   MPEG-7 Color Layout3 > 23
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients2 <= 84: LOW (2.0)
+|   |   |   |   |   |   |   Histogram of JPEG Coefficients2 > 84: HIGH (2.0)
+|   |   |   |   MPEG-7 Color Layout20 > 18: LOW (4.0/1.0)
+|   |   |   FCTH18 > 6: LOW (5.0/1.0)
+|   FCTH131 > 0
+|   |   Histogram of JPEG Coefficients68 <= 42: LOW (4.0)
+|   |   Histogram of JPEG Coefficients68 > 42: HIGH (29.0/1.0)
+
+Number of Leaves  : 	111
+
+Size of the tree : 	221
+
+
+Time taken to build model: 0.62 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         185               60.2606 %
+Incorrectly Classified Instances       122               39.7394 %
+Kappa statistic                          0.2047
+Mean absolute error                      0.3967
+Root mean squared error                  0.6075
+Relative absolute error                 79.2892 %
+Root relative squared error            121.396  %
+Total Number of Instances              307     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,599    0,394    0,583      0,599    0,591      0,205    0,607     0,557     LOW
+                 0,606    0,401    0,622      0,606    0,614      0,205    0,607     0,591     HIGH
+Weighted Avg.    0,603    0,398    0,603      0,603    0,603      0,205    0,607     0,575     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 88 59 |  a = LOW
+ 63 97 |  b = HIGH
+

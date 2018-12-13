@@ -1,0 +1,254 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Dataset_a_b_1024-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.FCTHFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.JpegCoefficientFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.PHOGFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.AutoColorCorrelogramFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    1024
+Attributes:   2072
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Auto Color Correlogram283 <= 3
+|   Auto Color Correlogram685 <= 0
+|   |   FCTH131 <= 0
+|   |   |   Histogram of JPEG Coefficients29 <= 3: LOW (26.0/1.0)
+|   |   |   Histogram of JPEG Coefficients29 > 3
+|   |   |   |   Auto Color Correlogram619 <= 12
+|   |   |   |   |   Auto Color Correlogram242 <= 3
+|   |   |   |   |   |   Auto Color Correlogram372 <= 0
+|   |   |   |   |   |   |   Auto Color Correlogram526 <= 10
+|   |   |   |   |   |   |   |   FCTH176 <= 0
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients136 <= 249
+|   |   |   |   |   |   |   |   |   |   PHOG31 <= 0
+|   |   |   |   |   |   |   |   |   |   |   FCTH97 <= 0: LOW (28.0)
+|   |   |   |   |   |   |   |   |   |   |   FCTH97 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG10 <= 2: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG10 > 2: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   PHOG31 > 0
+|   |   |   |   |   |   |   |   |   |   |   FCTH49 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram696 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram269 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram996 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG567 <= 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout26 <= 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram593 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH48 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG438 <= 10: HIGH (21.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG438 > 10: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH48 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram593 > 2: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout26 > 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients80 <= 168
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram24 <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram59 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram105 <= 9
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH104 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram178 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram112 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram1000 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram356 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram547 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG529 <= 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG364 <= 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG356 <= 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG561 <= 9
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram34 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram906 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG29 <= 4: LOW (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG29 > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG624 <= 9
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram980 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram964 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG507 <= 8
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram752 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram305 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram992 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram523 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram43 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG623 <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG35 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG332 <= 5: LOW (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG332 > 5: HIGH (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG35 > 2: LOW (21.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG623 > 5: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram43 > 1: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram523 > 2: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram992 > 0: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram305 > 0: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram752 > 0: HIGH (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG507 > 8: HIGH (14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram964 > 2: LOW (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram980 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout25 <= 15
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout23 <= 15: HIGH (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout23 > 15: LOW (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout25 > 15: LOW (27.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG624 > 9: LOW (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram906 > 1: HIGH (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram34 > 3: LOW (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG561 > 9: HIGH (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG356 > 12: LOW (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG364 > 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG612 <= 2: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG612 > 2: HIGH (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG529 > 11: LOW (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram547 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram783 <= 0: LOW (19.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram783 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram356 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram206 <= 0: HIGH (10.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram206 > 0: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram1000 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram95 <= 5: LOW (16.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram95 > 5: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram112 > 3: LOW (23.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram178 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram187 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram847 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram274 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients78 <= 43: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients78 > 43
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG407 <= 12: HIGH (21.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG407 > 12: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram274 > 2: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram847 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram187 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH104 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram370 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram198 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients171 <= 148
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG167 <= 11: HIGH (19.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG167 > 11: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients171 > 148: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram198 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram370 > 0: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram105 > 9: LOW (19.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram59 > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG611 <= 0: LOW (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG611 > 0: HIGH (16.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram24 > 7: LOW (26.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients80 > 168
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram202 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram305 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram40 <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG412 <= 9
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram458 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG475 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram0 <= 6: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram0 > 6: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG475 > 0: HIGH (41.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram458 > 2: LOW (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG412 > 9: LOW (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram40 > 7: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram305 > 1: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram202 > 3: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG567 > 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram126 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG31 <= 3: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG31 > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout17 <= 18: HIGH (22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout17 > 18: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram126 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram996 > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH90 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG298 <= 13: LOW (31.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG298 > 13: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH90 > 0: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram269 > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram1009 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG82 <= 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG82 > 0: LOW (23.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram1009 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram696 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram394 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG395 <= 9: HIGH (20.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG395 > 9: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram394 > 0: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   FCTH49 > 3
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram788 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram161 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG277 <= 8: HIGH (29.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG277 > 8: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram161 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram788 > 0: LOW (5.0)
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients136 > 249
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram70 <= 1: HIGH (26.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram70 > 1: LOW (2.0)
+|   |   |   |   |   |   |   |   FCTH176 > 0
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram919 <= 0
+|   |   |   |   |   |   |   |   |   |   PHOG388 <= 13
+|   |   |   |   |   |   |   |   |   |   |   PHOG298 <= 14
+|   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients5 <= 252
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG626 <= 10: HIGH (45.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PHOG626 > 10: LOW (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients5 > 252: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   PHOG298 > 14: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   PHOG388 > 13: LOW (3.0)
+|   |   |   |   |   |   |   |   |   Auto Color Correlogram919 > 0: LOW (3.0)
+|   |   |   |   |   |   |   Auto Color Correlogram526 > 10
+|   |   |   |   |   |   |   |   Auto Color Correlogram752 <= 0: LOW (27.0/1.0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram752 > 0: HIGH (2.0)
+|   |   |   |   |   |   Auto Color Correlogram372 > 0
+|   |   |   |   |   |   |   Auto Color Correlogram1005 <= 0
+|   |   |   |   |   |   |   |   PHOG450 <= 3: LOW (2.0)
+|   |   |   |   |   |   |   |   PHOG450 > 3: HIGH (22.0)
+|   |   |   |   |   |   |   Auto Color Correlogram1005 > 0: LOW (3.0)
+|   |   |   |   |   Auto Color Correlogram242 > 3
+|   |   |   |   |   |   Auto Color Correlogram663 <= 0
+|   |   |   |   |   |   |   PHOG589 <= 14: HIGH (26.0)
+|   |   |   |   |   |   |   PHOG589 > 14: LOW (2.0)
+|   |   |   |   |   |   Auto Color Correlogram663 > 0: LOW (2.0)
+|   |   |   |   Auto Color Correlogram619 > 12
+|   |   |   |   |   Auto Color Correlogram485 <= 1: LOW (29.0/1.0)
+|   |   |   |   |   Auto Color Correlogram485 > 1: HIGH (2.0)
+|   |   FCTH131 > 0
+|   |   |   Auto Color Correlogram129 <= 1
+|   |   |   |   PHOG437 <= 1: LOW (2.0)
+|   |   |   |   PHOG437 > 1: HIGH (28.0)
+|   |   |   Auto Color Correlogram129 > 1: LOW (3.0)
+|   Auto Color Correlogram685 > 0
+|   |   Auto Color Correlogram231 <= 0: HIGH (25.0/1.0)
+|   |   Auto Color Correlogram231 > 0: LOW (2.0)
+Auto Color Correlogram283 > 3
+|   Auto Color Correlogram676 <= 1: HIGH (30.0/1.0)
+|   Auto Color Correlogram676 > 1: LOW (2.0)
+
+Number of Leaves  : 	103
+
+Size of the tree : 	205
+
+
+Time taken to build model: 3.71 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.01 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         178               57.9805 %
+Incorrectly Classified Instances       129               42.0195 %
+Kappa statistic                          0.1588
+Mean absolute error                      0.4193
+Root mean squared error                  0.6216
+Relative absolute error                 83.7941 %
+Root relative squared error            124.2059 %
+Total Number of Instances              307     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,571    0,413    0,560      0,571    0,566      0,159    0,602     0,560     LOW
+                 0,588    0,429    0,599      0,588    0,593      0,159    0,602     0,582     HIGH
+Weighted Avg.    0,580    0,421    0,580      0,580    0,580      0,159    0,602     0,571     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 84 63 |  a = LOW
+ 66 94 |  b = HIGH
+

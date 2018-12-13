@@ -1,0 +1,47 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     Dataset_a_b_1024-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.FCTHFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.JpegCoefficientFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.PHOGFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    1024
+Attributes:   1048
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 1.07 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.02 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         208               67.7524 %
+Incorrectly Classified Instances        99               32.2476 %
+Kappa statistic                          0.3566
+Mean absolute error                      0.4472
+Root mean squared error                  0.4617
+Relative absolute error                 89.3648 %
+Root relative squared error             92.2605 %
+Total Number of Instances              307     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,714    0,356    0,648      0,714    0,680      0,358    0,745     0,742     LOW
+                 0,644    0,286    0,710      0,644    0,675      0,358    0,745     0,723     HIGH
+Weighted Avg.    0,678    0,319    0,681      0,678    0,677      0,358    0,745     0,732     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 105  42 |   a = LOW
+  57 103 |   b = HIGH
+

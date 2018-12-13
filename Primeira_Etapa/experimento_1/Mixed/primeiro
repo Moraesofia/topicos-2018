@@ -1,0 +1,119 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     animals_buildings-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/mixed-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    128
+Attributes:   34
+              MPEG-7 Color Layout0
+              MPEG-7 Color Layout1
+              MPEG-7 Color Layout2
+              MPEG-7 Color Layout3
+              MPEG-7 Color Layout4
+              MPEG-7 Color Layout5
+              MPEG-7 Color Layout6
+              MPEG-7 Color Layout7
+              MPEG-7 Color Layout8
+              MPEG-7 Color Layout9
+              MPEG-7 Color Layout10
+              MPEG-7 Color Layout11
+              MPEG-7 Color Layout12
+              MPEG-7 Color Layout13
+              MPEG-7 Color Layout14
+              MPEG-7 Color Layout15
+              MPEG-7 Color Layout16
+              MPEG-7 Color Layout17
+              MPEG-7 Color Layout18
+              MPEG-7 Color Layout19
+              MPEG-7 Color Layout20
+              MPEG-7 Color Layout21
+              MPEG-7 Color Layout22
+              MPEG-7 Color Layout23
+              MPEG-7 Color Layout24
+              MPEG-7 Color Layout25
+              MPEG-7 Color Layout26
+              MPEG-7 Color Layout27
+              MPEG-7 Color Layout28
+              MPEG-7 Color Layout29
+              MPEG-7 Color Layout30
+              MPEG-7 Color Layout31
+              MPEG-7 Color Layout32
+              class
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+MPEG-7 Color Layout0 <= 5: LOW (11.0)
+MPEG-7 Color Layout0 > 5
+|   MPEG-7 Color Layout9 <= 13
+|   |   MPEG-7 Color Layout14 <= 19
+|   |   |   MPEG-7 Color Layout22 <= 17: HIGH (26.0/1.0)
+|   |   |   MPEG-7 Color Layout22 > 17: LOW (3.0/1.0)
+|   |   MPEG-7 Color Layout14 > 19: LOW (2.0)
+|   MPEG-7 Color Layout9 > 13
+|   |   MPEG-7 Color Layout25 <= 13: LOW (7.0)
+|   |   MPEG-7 Color Layout25 > 13
+|   |   |   MPEG-7 Color Layout11 <= 12: HIGH (4.0)
+|   |   |   MPEG-7 Color Layout11 > 12
+|   |   |   |   MPEG-7 Color Layout12 <= 19
+|   |   |   |   |   MPEG-7 Color Layout6 <= 19
+|   |   |   |   |   |   MPEG-7 Color Layout22 <= 18
+|   |   |   |   |   |   |   MPEG-7 Color Layout19 <= 14: LOW (5.0)
+|   |   |   |   |   |   |   MPEG-7 Color Layout19 > 14
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout31 <= 13: LOW (4.0)
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout31 > 13
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout0 <= 28
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout10 <= 13: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout10 > 13
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout27 <= 35: HIGH (23.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout27 > 35
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout11 <= 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout13 <= 14: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout13 > 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout1 <= 16: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout1 > 16: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout11 > 16: LOW (2.0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout0 > 28
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout12 <= 16: LOW (12.0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout12 > 16: HIGH (3.0)
+|   |   |   |   |   |   MPEG-7 Color Layout22 > 18: HIGH (4.0)
+|   |   |   |   |   MPEG-7 Color Layout6 > 19: LOW (4.0)
+|   |   |   |   MPEG-7 Color Layout12 > 19: LOW (7.0)
+
+Number of Leaves  : 	19
+
+Size of the tree : 	37
+
+
+Time taken to build model: 0.08 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          19               50      %
+Incorrectly Classified Instances        19               50      %
+Kappa statistic                          0.0055
+Mean absolute error                      0.492 
+Root mean squared error                  0.6783
+Relative absolute error                 98.2827 %
+Root relative squared error            135.4759 %
+Total Number of Instances               38     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,556    0,550    0,476      0,556    0,513      0,006    0,517     0,489     LOW
+                 0,450    0,444    0,529      0,450    0,486      0,006    0,517     0,538     HIGH
+Weighted Avg.    0,500    0,494    0,504      0,500    0,499      0,006    0,517     0,515     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 10  8 |  a = LOW
+ 11  9 |  b = HIGH
+

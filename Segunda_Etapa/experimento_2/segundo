@@ -1,0 +1,308 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Dataset_a_b_1024-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.EdgeHistogramFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    1024
+Attributes:   114
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+MPEG-7 Edge Histogram1 <= 0
+|   MPEG-7 Edge Histogram63 <= 5
+|   |   MPEG-7 Color Layout1 <= 18
+|   |   |   MPEG-7 Edge Histogram53 <= 4
+|   |   |   |   MPEG-7 Edge Histogram43 <= 4
+|   |   |   |   |   MPEG-7 Color Layout30 <= 9
+|   |   |   |   |   |   MPEG-7 Edge Histogram25 <= 3: HIGH (5.0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram25 > 3: LOW (2.0)
+|   |   |   |   |   MPEG-7 Color Layout30 > 9
+|   |   |   |   |   |   MPEG-7 Edge Histogram3 <= 0
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram49 <= 5
+|   |   |   |   |   |   |   |   MPEG-7 Edge Histogram55 <= 0
+|   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram11 <= 1
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout24 <= 18
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout19 <= 14
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram12 <= 0: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram12 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout19 > 14
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram42 <= 1: LOW (20.0)
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram42 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram31 <= 1: HIGH (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram31 > 1: LOW (5.0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout24 > 18: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram11 > 1: HIGH (2.0)
+|   |   |   |   |   |   |   |   MPEG-7 Edge Histogram55 > 0
+|   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram52 <= 0
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram23 <= 1: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram23 > 1: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram52 > 0: LOW (45.0)
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram49 > 5: HIGH (5.0/1.0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram3 > 0: LOW (15.0)
+|   |   |   |   MPEG-7 Edge Histogram43 > 4
+|   |   |   |   |   MPEG-7 Edge Histogram59 <= 3
+|   |   |   |   |   |   MPEG-7 Edge Histogram65 <= 3
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram26 <= 3: LOW (9.0)
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram26 > 3: HIGH (3.0/1.0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram65 > 3: HIGH (2.0)
+|   |   |   |   |   MPEG-7 Edge Histogram59 > 3: HIGH (9.0)
+|   |   |   MPEG-7 Edge Histogram53 > 4
+|   |   |   |   MPEG-7 Color Layout30 <= 16
+|   |   |   |   |   MPEG-7 Edge Histogram8 <= 3
+|   |   |   |   |   |   MPEG-7 Edge Histogram49 <= 2
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram47 <= 0: HIGH (4.0)
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram47 > 0: LOW (12.0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram49 > 2
+|   |   |   |   |   |   |   MPEG-7 Color Layout21 <= 21: LOW (5.0)
+|   |   |   |   |   |   |   MPEG-7 Color Layout21 > 21
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout28 <= 12: LOW (2.0)
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout28 > 12
+|   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram62 <= 2
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram34 <= 2: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram34 > 2
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout30 <= 10: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout30 > 10: HIGH (8.0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram62 > 2: HIGH (19.0)
+|   |   |   |   |   MPEG-7 Edge Histogram8 > 3: HIGH (9.0)
+|   |   |   |   MPEG-7 Color Layout30 > 16: LOW (13.0/1.0)
+|   |   MPEG-7 Color Layout1 > 18
+|   |   |   MPEG-7 Edge Histogram32 <= 6
+|   |   |   |   MPEG-7 Color Layout31 <= 17
+|   |   |   |   |   MPEG-7 Color Layout14 <= 18: LOW (46.0)
+|   |   |   |   |   MPEG-7 Color Layout14 > 18
+|   |   |   |   |   |   MPEG-7 Edge Histogram72 <= 4: LOW (3.0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram72 > 4: HIGH (2.0)
+|   |   |   |   MPEG-7 Color Layout31 > 17
+|   |   |   |   |   MPEG-7 Edge Histogram5 <= 0: HIGH (2.0)
+|   |   |   |   |   MPEG-7 Edge Histogram5 > 0: LOW (2.0)
+|   |   |   MPEG-7 Edge Histogram32 > 6: HIGH (3.0/1.0)
+|   MPEG-7 Edge Histogram63 > 5
+|   |   MPEG-7 Edge Histogram48 <= 2: LOW (3.0)
+|   |   MPEG-7 Edge Histogram48 > 2
+|   |   |   MPEG-7 Edge Histogram62 <= 2: LOW (2.0)
+|   |   |   MPEG-7 Edge Histogram62 > 2
+|   |   |   |   MPEG-7 Color Layout7 <= 17
+|   |   |   |   |   MPEG-7 Color Layout4 <= 23: HIGH (21.0/1.0)
+|   |   |   |   |   MPEG-7 Color Layout4 > 23: LOW (2.0)
+|   |   |   |   MPEG-7 Color Layout7 > 17: LOW (2.0)
+MPEG-7 Edge Histogram1 > 0
+|   MPEG-7 Color Layout24 <= 21
+|   |   MPEG-7 Color Layout0 <= 45
+|   |   |   MPEG-7 Color Layout26 <= 12
+|   |   |   |   MPEG-7 Edge Histogram6 <= 2
+|   |   |   |   |   MPEG-7 Color Layout0 <= 13: LOW (3.0)
+|   |   |   |   |   MPEG-7 Color Layout0 > 13
+|   |   |   |   |   |   MPEG-7 Edge Histogram23 <= 2: LOW (3.0/1.0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram23 > 2: HIGH (9.0)
+|   |   |   |   MPEG-7 Edge Histogram6 > 2: HIGH (18.0)
+|   |   |   MPEG-7 Color Layout26 > 12
+|   |   |   |   MPEG-7 Edge Histogram59 <= 2
+|   |   |   |   |   MPEG-7 Edge Histogram8 <= 5
+|   |   |   |   |   |   MPEG-7 Edge Histogram1 <= 5
+|   |   |   |   |   |   |   MPEG-7 Color Layout6 <= 16
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout14 <= 11: HIGH (5.0)
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout14 > 11
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout17 <= 14: LOW (7.0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout17 > 14
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram43 <= 6
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram15 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram60 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram49 <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram27 <= 1: HIGH (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram27 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram12 <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram64 <= 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram32 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram18 <= 0: LOW (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram18 > 0: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram32 > 0: LOW (23.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram64 > 6: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram12 > 5: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram49 > 5: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram60 > 2: LOW (12.0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram15 > 3
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram16 <= 3: HIGH (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram16 > 3: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram43 > 6: HIGH (4.0)
+|   |   |   |   |   |   |   MPEG-7 Color Layout6 > 16
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout28 <= 16: LOW (27.0)
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout28 > 16
+|   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram2 <= 2: LOW (2.0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram2 > 2: HIGH (2.0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram1 > 5
+|   |   |   |   |   |   |   MPEG-7 Color Layout25 <= 16: HIGH (6.0)
+|   |   |   |   |   |   |   MPEG-7 Color Layout25 > 16: LOW (2.0)
+|   |   |   |   |   MPEG-7 Edge Histogram8 > 5
+|   |   |   |   |   |   MPEG-7 Edge Histogram48 <= 4: HIGH (12.0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram48 > 4
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram9 <= 2: HIGH (3.0)
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram9 > 2: LOW (5.0)
+|   |   |   |   MPEG-7 Edge Histogram59 > 2
+|   |   |   |   |   MPEG-7 Color Layout11 <= 18
+|   |   |   |   |   |   MPEG-7 Color Layout1 <= 9
+|   |   |   |   |   |   |   MPEG-7 Color Layout11 <= 17
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout8 <= 21
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout17 <= 19
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram54 <= 5: LOW (27.0/1.0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram54 > 5
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram33 <= 4: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram33 > 4: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout17 > 19: HIGH (2.0)
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout8 > 21: HIGH (3.0)
+|   |   |   |   |   |   |   MPEG-7 Color Layout11 > 17: HIGH (7.0/1.0)
+|   |   |   |   |   |   MPEG-7 Color Layout1 > 9
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram2 <= 3
+|   |   |   |   |   |   |   |   MPEG-7 Edge Histogram18 <= 5
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 <= 11
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram9 <= 2: HIGH (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram9 > 2: LOW (9.0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 > 11
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram16 <= 0
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout3 <= 7: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout3 > 7
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram63 <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram55 <= 4: LOW (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram55 > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram77 <= 4: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram77 > 4: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram63 > 5: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram16 > 0
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout29 <= 9: HIGH (16.0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout29 > 9
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram72 <= 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram65 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout6 <= 17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram6 <= 2: HIGH (18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram6 > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram0 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout6 <= 13: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout6 > 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram77 <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram66 <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram0 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram7 <= 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram7 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram15 <= 2: HIGH (13.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram15 > 2: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram0 > 1: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram66 > 5: HIGH (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram77 > 5: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram0 > 2: HIGH (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout6 > 17: LOW (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram65 > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram25 <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout29 <= 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram54 <= 2: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram54 > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram77 <= 5: LOW (22.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram77 > 5: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout29 > 18: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram25 > 5: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram72 > 6: HIGH (9.0)
+|   |   |   |   |   |   |   |   MPEG-7 Edge Histogram18 > 5
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout12 <= 12: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout12 > 12
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram11 <= 4: LOW (16.0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram11 > 4: HIGH (3.0/1.0)
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram2 > 3
+|   |   |   |   |   |   |   |   MPEG-7 Edge Histogram9 <= 5
+|   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram69 <= 3
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram0 <= 3
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout4 <= 19
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout2 <= 24: HIGH (22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout2 > 24
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram59 <= 4: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram59 > 4: HIGH (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout4 > 19: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram0 > 3
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram0 <= 5: LOW (10.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram0 > 5: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram69 > 3
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram43 <= 6
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram14 <= 4: HIGH (46.0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram14 > 4
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram55 <= 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram35 <= 0: LOW (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram35 > 0: HIGH (30.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram55 > 6: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram43 > 6
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout28 <= 15: HIGH (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout28 > 15: LOW (3.0)
+|   |   |   |   |   |   |   |   MPEG-7 Edge Histogram9 > 5
+|   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram67 <= 2: LOW (5.0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram67 > 2
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram15 <= 4
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram55 <= 0: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram55 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram58 <= 4: HIGH (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram58 > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram46 <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram76 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram44 <= 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram44 <= 5: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram44 > 5: HIGH (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram44 > 6: LOW (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram76 > 3: HIGH (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram46 > 4: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Edge Histogram15 > 4: LOW (4.0)
+|   |   |   |   |   MPEG-7 Color Layout11 > 18
+|   |   |   |   |   |   MPEG-7 Edge Histogram16 <= 5
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram9 <= 5: LOW (18.0)
+|   |   |   |   |   |   |   MPEG-7 Edge Histogram9 > 5
+|   |   |   |   |   |   |   |   MPEG-7 Edge Histogram2 <= 5: HIGH (3.0)
+|   |   |   |   |   |   |   |   MPEG-7 Edge Histogram2 > 5: LOW (4.0)
+|   |   |   |   |   |   MPEG-7 Edge Histogram16 > 5: HIGH (5.0)
+|   |   MPEG-7 Color Layout0 > 45
+|   |   |   MPEG-7 Color Layout18 <= 13: HIGH (5.0/1.0)
+|   |   |   MPEG-7 Color Layout18 > 13
+|   |   |   |   MPEG-7 Color Layout15 <= 16: LOW (21.0)
+|   |   |   |   MPEG-7 Color Layout15 > 16
+|   |   |   |   |   MPEG-7 Edge Histogram20 <= 0: LOW (3.0)
+|   |   |   |   |   MPEG-7 Edge Histogram20 > 0: HIGH (3.0)
+|   MPEG-7 Color Layout24 > 21
+|   |   MPEG-7 Edge Histogram54 <= 2: LOW (3.0/1.0)
+|   |   MPEG-7 Edge Histogram54 > 2
+|   |   |   MPEG-7 Edge Histogram32 <= 2
+|   |   |   |   MPEG-7 Color Layout11 <= 15: LOW (3.0)
+|   |   |   |   MPEG-7 Color Layout11 > 15: HIGH (6.0)
+|   |   |   MPEG-7 Edge Histogram32 > 2: HIGH (31.0)
+
+Number of Leaves  : 	130
+
+Size of the tree : 	259
+
+
+Time taken to build model: 0.16 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.01 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         167               54.3974 %
+Incorrectly Classified Instances       140               45.6026 %
+Kappa statistic                          0.0928
+Mean absolute error                      0.4529
+Root mean squared error                  0.6616
+Relative absolute error                 90.5107 %
+Root relative squared error            132.2    %
+Total Number of Instances              307     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,612    0,519    0,520      0,612    0,562      0,094    0,566     0,517     LOW
+                 0,481    0,388    0,575      0,481    0,524      0,094    0,566     0,574     HIGH
+Weighted Avg.    0,544    0,450    0,549      0,544    0,542      0,094    0,566     0,547     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 90 57 |  a = LOW
+ 83 77 |  b = HIGH
+

@@ -1,0 +1,82 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     animals_buildings-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/mixed-weka.filters.unsupervised.instance.imagefilter.AutoColorCorrelogramFilter-D/home/sofia/topicos/mixed-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    128
+Attributes:   1058
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Auto Color Correlogram230 <= 2
+|   Auto Color Correlogram291 <= 1
+|   |   Auto Color Correlogram834 <= 0
+|   |   |   Auto Color Correlogram371 <= 0
+|   |   |   |   Auto Color Correlogram596 <= 6
+|   |   |   |   |   Auto Color Correlogram403 <= 1
+|   |   |   |   |   |   Auto Color Correlogram472 <= 0
+|   |   |   |   |   |   |   Auto Color Correlogram333 <= 0
+|   |   |   |   |   |   |   |   Auto Color Correlogram270 <= 0
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout9 <= 16
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram492 <= 0
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram718 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram916 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout20 <= 13: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout20 > 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram126 <= 1: LOW (16.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram126 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram4 <= 1: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram4 > 1: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram916 > 3: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Auto Color Correlogram718 > 0: HIGH (5.0)
+|   |   |   |   |   |   |   |   |   |   Auto Color Correlogram492 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout9 > 16: LOW (13.0)
+|   |   |   |   |   |   |   |   Auto Color Correlogram270 > 0: HIGH (5.0)
+|   |   |   |   |   |   |   Auto Color Correlogram333 > 0: LOW (9.0)
+|   |   |   |   |   |   Auto Color Correlogram472 > 0: HIGH (6.0)
+|   |   |   |   |   Auto Color Correlogram403 > 1: LOW (8.0)
+|   |   |   |   Auto Color Correlogram596 > 6: HIGH (16.0/2.0)
+|   |   |   Auto Color Correlogram371 > 0: HIGH (7.0)
+|   |   Auto Color Correlogram834 > 0: LOW (8.0/1.0)
+|   Auto Color Correlogram291 > 1: LOW (6.0)
+Auto Color Correlogram230 > 2: HIGH (17.0/1.0)
+
+Number of Leaves  : 	17
+
+Size of the tree : 	33
+
+
+Time taken to build model: 0.09 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          24               63.1579 %
+Incorrectly Classified Instances        14               36.8421 %
+Kappa statistic                          0.2528
+Mean absolute error                      0.375 
+Root mean squared error                  0.5919
+Relative absolute error                 74.9143 %
+Root relative squared error            118.2141 %
+Total Number of Instances               38     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,500    0,250    0,643      0,500    0,563      0,259    0,629     0,570     LOW
+                 0,750    0,500    0,625      0,750    0,682      0,259    0,629     0,604     HIGH
+Weighted Avg.    0,632    0,382    0,633      0,632    0,625      0,259    0,629     0,588     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+  9  9 |  a = LOW
+  5 15 |  b = HIGH
+

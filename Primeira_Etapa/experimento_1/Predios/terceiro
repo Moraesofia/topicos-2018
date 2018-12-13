@@ -1,0 +1,64 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Dataset_buildings_64-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/Dataset_buildings_64-weka.filters.unsupervised.instance.imagefilter.FCTHFilter-D/home/sofia/topicos/Dataset_buildings_64-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    64
+Attributes:   226
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+FCTH49 <= 0
+|   FCTH20 <= 5
+|   |   FCTH54 <= 0: LOW (21.0)
+|   |   FCTH54 > 0
+|   |   |   MPEG-7 Color Layout1 <= 16: HIGH (2.0)
+|   |   |   MPEG-7 Color Layout1 > 16: LOW (4.0/1.0)
+|   FCTH20 > 5: HIGH (2.0)
+FCTH49 > 0
+|   FCTH66 <= 0
+|   |   FCTH26 <= 0
+|   |   |   FCTH11 <= 0: HIGH (5.0)
+|   |   |   FCTH11 > 0: LOW (6.0)
+|   |   FCTH26 > 0: HIGH (21.0)
+|   FCTH66 > 0: LOW (3.0/1.0)
+
+Number of Leaves  : 	8
+
+Size of the tree : 	15
+
+
+Time taken to build model: 0.03 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          14               73.6842 %
+Incorrectly Classified Instances         5               26.3158 %
+Kappa statistic                          0.4693
+Mean absolute error                      0.2746
+Root mean squared error                  0.4698
+Relative absolute error                 54.86   %
+Root relative squared error             93.8293 %
+Total Number of Instances               19     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,667    0,200    0,750      0,667    0,706      0,472    0,789     0,707     LOW
+                 0,800    0,333    0,727      0,800    0,762      0,472    0,789     0,762     HIGH
+Weighted Avg.    0,737    0,270    0,738      0,737    0,735      0,472    0,789     0,736     
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 6 3 | a = LOW
+ 2 8 | b = HIGH
+

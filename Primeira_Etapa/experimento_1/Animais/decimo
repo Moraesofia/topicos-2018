@@ -1,0 +1,58 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Dataset_anm_64-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/animals-weka.filters.unsupervised.instance.imagefilter.BinaryPatternsPyramidFilter-D/home/sofia/topicos/animals-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    64
+Attributes:   790
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Spatial Pyramid of Local Binary Patterns106 <= 1: LOW (21.0)
+Spatial Pyramid of Local Binary Patterns106 > 1
+|   Spatial Pyramid of Local Binary Patterns486 <= 1
+|   |   Spatial Pyramid of Local Binary Patterns152 <= 6: LOW (3.0)
+|   |   Spatial Pyramid of Local Binary Patterns152 > 6
+|   |   |   Spatial Pyramid of Local Binary Patterns541 <= 3: LOW (6.0/1.0)
+|   |   |   Spatial Pyramid of Local Binary Patterns541 > 3: HIGH (31.0)
+|   Spatial Pyramid of Local Binary Patterns486 > 1: LOW (3.0)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	9
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          13               68.4211 %
+Incorrectly Classified Instances         6               31.5789 %
+Kappa statistic                          0.3596
+Mean absolute error                      0.3224
+Root mean squared error                  0.5547
+Relative absolute error                 64.4016 %
+Root relative squared error            110.7847 %
+Total Number of Instances               19     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,556    0,200    0,714      0,556    0,625      0,368    0,678     0,607     LOW
+                 0,800    0,444    0,667      0,800    0,727      0,368    0,678     0,639     HIGH
+Weighted Avg.    0,684    0,329    0,689      0,684    0,679      0,368    0,678     0,624     
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 5 4 | a = LOW
+ 2 8 | b = HIGH
+

@@ -1,0 +1,330 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Dataset_a_b_1024-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.FCTHFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.FuzzyOpponentHistogramFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    1024
+Attributes:   802
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Fuzzy Opponent Histogram28 <= 0
+|   FCTH131 <= 0
+|   |   FCTH176 <= 0
+|   |   |   FCTH49 <= 4
+|   |   |   |   FCTH38 <= 1
+|   |   |   |   |   FCTH83 <= 0
+|   |   |   |   |   |   FCTH79 <= 0
+|   |   |   |   |   |   |   FCTH19 <= 5
+|   |   |   |   |   |   |   |   FCTH43 <= 0
+|   |   |   |   |   |   |   |   |   FCTH13 <= 0
+|   |   |   |   |   |   |   |   |   |   FCTH56 <= 0
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram9 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH57 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH26 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout12 <= 10: LOW (27.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout12 > 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout32 <= 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH54 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH68 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH7 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout2 <= 22
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout15 <= 13: LOW (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout15 > 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout32 <= 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout32 <= 12: LOW (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout32 > 12: HIGH (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout32 > 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH3 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram32 <= 115
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH59 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH38 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH44 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout6 <= 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout7 <= 14: HIGH (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout7 > 14: LOW (17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout6 > 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH10 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout22 <= 14: HIGH (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout22 > 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH5 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout13 <= 14: HIGH (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout13 > 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH33 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH30 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 <= 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH25 <= 3: LOW (14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH25 > 3: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 > 16: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH30 > 0: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH33 > 0: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH5 > 0: LOW (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH10 > 0: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH44 > 0: HIGH (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH38 > 0: LOW (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH59 > 0: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram32 > 115: HIGH (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH3 > 1: LOW (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout2 > 22
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout30 <= 15: LOW (33.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout30 > 15
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH19 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout23 <= 14: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout23 > 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH3 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 <= 11: HIGH (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 > 11: LOW (17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH3 > 0: HIGH (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH19 > 1: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH7 > 2: LOW (13.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH68 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout23 <= 13: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout23 > 13: LOW (20.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH54 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram22 <= 18: LOW (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram22 > 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout15 <= 16: HIGH (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout15 > 16: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout32 > 16: LOW (29.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH26 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH3 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH98 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH5 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH39 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH14 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout13 <= 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH25 <= 4: HIGH (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH25 > 4: LOW (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout13 > 18: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH14 > 1: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH39 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH5 > 0: LOW (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH98 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH3 > 0: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH57 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH5 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout32 <= 15: HIGH (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout32 > 15
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout15 <= 16: LOW (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout15 > 16: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH5 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram9 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout2 <= 12: LOW (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout2 > 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH26 <= 0: LOW (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH26 > 0: HIGH (11.0)
+|   |   |   |   |   |   |   |   |   |   FCTH56 > 0
+|   |   |   |   |   |   |   |   |   |   |   FCTH121 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH42 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH3 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH17 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram20 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram16 <= 44
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 <= 20
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH12 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH23 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 <= 41
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH20 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram31 <= 65
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout11 <= 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH19 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH11 <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout9 <= 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH80 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout22 <= 15: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout22 > 15: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH80 > 0: HIGH (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout9 > 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout29 <= 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout26 <= 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram35 <= 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH20 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH73 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH5 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram26 <= 31: LOW (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram26 > 31: HIGH (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH5 > 0: HIGH (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH73 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH20 > 0: HIGH (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram35 > 6: LOW (13.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout26 > 18: HIGH (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout29 > 16: LOW (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH11 > 4: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH19 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH2 <= 6: LOW (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH2 > 6: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout11 > 18: LOW (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram31 > 65: HIGH (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH20 > 3: HIGH (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 > 41: LOW (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH23 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH2 <= 5: HIGH (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH2 > 5: LOW (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH12 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout30 <= 15: LOW (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout30 > 15: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 > 20: HIGH (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram16 > 44: LOW (13.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram20 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout31 <= 15: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout31 > 15: LOW (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH17 > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH8 <= 2: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH8 > 2: HIGH (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH3 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH35 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH54 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout2 <= 19: LOW (18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout2 > 19: HIGH (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH54 > 1: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH35 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH42 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 <= 25: HIGH (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram23 > 25: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   FCTH121 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram32 <= 101
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH51 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH80 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH7 <= 0: LOW (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH7 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH78 <= 0: HIGH (15.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH78 > 0: LOW (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH80 > 0: HIGH (28.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH51 > 0: LOW (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram32 > 101: LOW (7.0)
+|   |   |   |   |   |   |   |   |   FCTH13 > 0
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram35 <= 26
+|   |   |   |   |   |   |   |   |   |   |   FCTH24 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH3 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH36 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH61 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH12 <= 3: HIGH (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH12 > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH26 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout14 <= 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 <= 8: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram14 > 8: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout14 > 14: HIGH (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH26 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH61 > 0: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH36 > 0: HIGH (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH3 > 0: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   FCTH24 > 0: HIGH (7.0)
+|   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram35 > 26: LOW (5.0)
+|   |   |   |   |   |   |   |   FCTH43 > 0
+|   |   |   |   |   |   |   |   |   FCTH138 <= 0
+|   |   |   |   |   |   |   |   |   |   FCTH6 <= 2
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout5 <= 18: HIGH (16.0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout5 > 18: LOW (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   FCTH6 > 2: LOW (3.0)
+|   |   |   |   |   |   |   |   |   FCTH138 > 0: LOW (3.0)
+|   |   |   |   |   |   |   FCTH19 > 5
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram26 <= 24
+|   |   |   |   |   |   |   |   |   FCTH3 <= 0
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout3 <= 16
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout9 <= 19: LOW (41.0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout9 > 19
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 <= 90: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram13 > 90: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout3 > 16: HIGH (3.0/1.0)
+|   |   |   |   |   |   |   |   |   FCTH3 > 0: HIGH (3.0/1.0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram26 > 24: HIGH (3.0)
+|   |   |   |   |   |   FCTH79 > 0
+|   |   |   |   |   |   |   FCTH3 <= 0
+|   |   |   |   |   |   |   |   FCTH17 <= 0
+|   |   |   |   |   |   |   |   |   FCTH58 <= 0
+|   |   |   |   |   |   |   |   |   |   FCTH174 <= 0
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram10 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH152 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH49 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout9 <= 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram16 <= 29: LOW (19.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram16 > 29: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout9 > 18: HIGH (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FCTH49 > 0: HIGH (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FCTH152 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Fuzzy Opponent Histogram10 > 1: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   FCTH174 > 0: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   FCTH58 > 0: HIGH (4.0)
+|   |   |   |   |   |   |   |   FCTH17 > 0: HIGH (4.0)
+|   |   |   |   |   |   |   FCTH3 > 0: HIGH (6.0)
+|   |   |   |   |   FCTH83 > 0
+|   |   |   |   |   |   MPEG-7 Color Layout10 <= 10: LOW (3.0)
+|   |   |   |   |   |   MPEG-7 Color Layout10 > 10
+|   |   |   |   |   |   |   FCTH58 <= 0
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram34 <= 53: HIGH (17.0)
+|   |   |   |   |   |   |   |   Fuzzy Opponent Histogram34 > 53: LOW (2.0)
+|   |   |   |   |   |   |   FCTH58 > 0: LOW (3.0/1.0)
+|   |   |   |   FCTH38 > 1
+|   |   |   |   |   Fuzzy Opponent Histogram18 <= 0
+|   |   |   |   |   |   FCTH38 <= 3
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram17 <= 56: HIGH (27.0/1.0)
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram17 > 56: LOW (3.0)
+|   |   |   |   |   |   FCTH38 > 3: LOW (2.0)
+|   |   |   |   |   Fuzzy Opponent Histogram18 > 0: LOW (2.0)
+|   |   |   FCTH49 > 4
+|   |   |   |   MPEG-7 Color Layout23 <= 15
+|   |   |   |   |   MPEG-7 Color Layout9 <= 17: LOW (5.0)
+|   |   |   |   |   MPEG-7 Color Layout9 > 17: HIGH (3.0)
+|   |   |   |   MPEG-7 Color Layout23 > 15: HIGH (19.0)
+|   |   FCTH176 > 0
+|   |   |   FCTH79 <= 1
+|   |   |   |   FCTH81 <= 0
+|   |   |   |   |   MPEG-7 Color Layout4 <= 17: HIGH (47.0/4.0)
+|   |   |   |   |   MPEG-7 Color Layout4 > 17
+|   |   |   |   |   |   MPEG-7 Color Layout17 <= 15: LOW (4.0)
+|   |   |   |   |   |   MPEG-7 Color Layout17 > 15: HIGH (5.0/1.0)
+|   |   |   |   FCTH81 > 0: LOW (3.0/1.0)
+|   |   |   FCTH79 > 1
+|   |   |   |   FCTH26 <= 0: HIGH (2.0)
+|   |   |   |   FCTH26 > 0: LOW (4.0)
+|   FCTH131 > 0
+|   |   FCTH9 <= 5
+|   |   |   MPEG-7 Color Layout24 <= 12: LOW (3.0/1.0)
+|   |   |   MPEG-7 Color Layout24 > 12: HIGH (21.0)
+|   |   FCTH9 > 5: LOW (2.0)
+Fuzzy Opponent Histogram28 > 0
+|   FCTH18 <= 3
+|   |   Fuzzy Opponent Histogram16 <= 33: HIGH (27.0)
+|   |   Fuzzy Opponent Histogram16 > 33: LOW (3.0/1.0)
+|   FCTH18 > 3: LOW (2.0)
+
+Number of Leaves  : 	141
+
+Size of the tree : 	281
+
+
+Time taken to build model: 0.75 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         172               56.0261 %
+Incorrectly Classified Instances       135               43.9739 %
+Kappa statistic                          0.1264
+Mean absolute error                      0.4512
+Root mean squared error                  0.6206
+Relative absolute error                 90.1719 %
+Root relative squared error            124.0122 %
+Total Number of Instances              307     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,646    0,519    0,534      0,646    0,585      0,129    0,541     0,508     LOW
+                 0,481    0,354    0,597      0,481    0,533      0,129    0,541     0,543     HIGH
+Weighted Avg.    0,560    0,433    0,567      0,560    0,558      0,129    0,541     0,527     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 95 52 |  a = LOW
+ 83 77 |  b = HIGH
+

@@ -1,0 +1,70 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     animals_buildings-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/mixed-weka.filters.unsupervised.instance.imagefilter.FCTHFilter-D/home/sofia/topicos/mixed-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    128
+Attributes:   226
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+FCTH83 <= 0
+|   FCTH121 <= 0
+|   |   FCTH62 <= 0
+|   |   |   FCTH32 <= 1
+|   |   |   |   FCTH16 <= 3
+|   |   |   |   |   FCTH59 <= 0: LOW (63.0/11.0)
+|   |   |   |   |   FCTH59 > 0
+|   |   |   |   |   |   FCTH2 <= 4: HIGH (3.0)
+|   |   |   |   |   |   FCTH2 > 4: LOW (2.0)
+|   |   |   |   FCTH16 > 3: HIGH (4.0/1.0)
+|   |   |   FCTH32 > 1
+|   |   |   |   FCTH55 <= 0: HIGH (10.0)
+|   |   |   |   FCTH55 > 0
+|   |   |   |   |   MPEG-7 Color Layout2 <= 15: LOW (6.0)
+|   |   |   |   |   MPEG-7 Color Layout2 > 15: HIGH (3.0)
+|   |   FCTH62 > 0: HIGH (7.0/1.0)
+|   FCTH121 > 0
+|   |   MPEG-7 Color Layout30 <= 12: LOW (2.0)
+|   |   MPEG-7 Color Layout30 > 12: HIGH (16.0)
+FCTH83 > 0: HIGH (12.0)
+
+Number of Leaves  : 	11
+
+Size of the tree : 	21
+
+
+Time taken to build model: 0.03 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          24               63.1579 %
+Incorrectly Classified Instances        14               36.8421 %
+Kappa statistic                          0.2611
+Mean absolute error                      0.358 
+Root mean squared error                  0.5758
+Relative absolute error                 71.5161 %
+Root relative squared error            114.9921 %
+Total Number of Instances               38     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,611    0,350    0,611      0,611    0,611      0,261    0,635     0,547     LOW
+                 0,650    0,389    0,650      0,650    0,650      0,261    0,635     0,652     HIGH
+Weighted Avg.    0,632    0,370    0,632      0,632    0,632      0,261    0,635     0,602     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 11  7 |  a = LOW
+  7 13 |  b = HIGH
+

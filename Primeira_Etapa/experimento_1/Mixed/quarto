@@ -1,0 +1,78 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     animals_buildings-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/mixed-weka.filters.unsupervised.instance.imagefilter.FuzzyOpponentHistogramFilter-D/home/sofia/topicos/mixed-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    128
+Attributes:   610
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Fuzzy Opponent Histogram7 <= 97
+|   MPEG-7 Color Layout9 <= 13
+|   |   MPEG-7 Color Layout16 <= 13: LOW (4.0/1.0)
+|   |   MPEG-7 Color Layout16 > 13: HIGH (27.0/2.0)
+|   MPEG-7 Color Layout9 > 13
+|   |   MPEG-7 Color Layout25 <= 13: LOW (7.0)
+|   |   MPEG-7 Color Layout25 > 13
+|   |   |   MPEG-7 Color Layout11 <= 12: HIGH (4.0)
+|   |   |   MPEG-7 Color Layout11 > 12
+|   |   |   |   MPEG-7 Color Layout6 <= 18
+|   |   |   |   |   MPEG-7 Color Layout12 <= 19
+|   |   |   |   |   |   MPEG-7 Color Layout11 <= 17
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram16 <= 1
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout17 <= 14: HIGH (3.0/1.0)
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout17 > 14: LOW (11.0)
+|   |   |   |   |   |   |   Fuzzy Opponent Histogram16 > 1
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout19 <= 14: LOW (4.0)
+|   |   |   |   |   |   |   |   MPEG-7 Color Layout19 > 14
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout10 <= 13: LOW (5.0/2.0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout10 > 13
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout17 <= 16: HIGH (26.0/1.0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout17 > 16
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout5 <= 14: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout5 > 14: LOW (6.0/1.0)
+|   |   |   |   |   |   MPEG-7 Color Layout11 > 17: LOW (3.0)
+|   |   |   |   |   MPEG-7 Color Layout12 > 19: LOW (5.0)
+|   |   |   |   MPEG-7 Color Layout6 > 18: LOW (5.0)
+Fuzzy Opponent Histogram7 > 97: LOW (14.0)
+
+Number of Leaves  : 	15
+
+Size of the tree : 	29
+
+
+Time taken to build model: 0.04 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          24               63.1579 %
+Incorrectly Classified Instances        14               36.8421 %
+Kappa statistic                          0.2692
+Mean absolute error                      0.3772
+Root mean squared error                  0.6046
+Relative absolute error                 75.3524 %
+Root relative squared error            120.7521 %
+Total Number of Instances               38     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,722    0,450    0,591      0,722    0,650      0,275    0,628     0,564     LOW
+                 0,550    0,278    0,688      0,550    0,611      0,275    0,628     0,602     HIGH
+Weighted Avg.    0,632    0,359    0,642      0,632    0,630      0,275    0,628     0,584     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 13  5 |  a = LOW
+  9 11 |  b = HIGH
+

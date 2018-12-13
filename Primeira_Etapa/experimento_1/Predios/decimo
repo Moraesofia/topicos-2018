@@ -1,0 +1,56 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Dataset_buildings_64-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/Dataset_buildings_64-weka.filters.unsupervised.instance.imagefilter.BinaryPatternsPyramidFilter-D/home/sofia/topicos/Dataset_buildings_64-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    64
+Attributes:   790
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Spatial Pyramid of Local Binary Patterns502 <= 0: LOW (22.0/1.0)
+Spatial Pyramid of Local Binary Patterns502 > 0
+|   Spatial Pyramid of Local Binary Patterns364 <= 2: LOW (7.0)
+|   Spatial Pyramid of Local Binary Patterns364 > 2
+|   |   Spatial Pyramid of Local Binary Patterns148 <= 10: HIGH (32.0/1.0)
+|   |   Spatial Pyramid of Local Binary Patterns148 > 10: LOW (3.0)
+
+Number of Leaves  : 	4
+
+Size of the tree : 	7
+
+
+Time taken to build model: 0.02 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          14               73.6842 %
+Incorrectly Classified Instances         5               26.3158 %
+Kappa statistic                          0.4633
+Mean absolute error                      0.2715
+Root mean squared error                  0.5083
+Relative absolute error                 54.2329 %
+Root relative squared error            101.5191 %
+Total Number of Instances               19     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,556    0,100    0,833      0,556    0,667      0,489    0,733     0,692     LOW
+                 0,900    0,444    0,692      0,900    0,783      0,489    0,733     0,679     HIGH
+Weighted Avg.    0,737    0,281    0,759      0,737    0,728      0,489    0,733     0,685     
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 5 4 | a = LOW
+ 1 9 | b = HIGH
+

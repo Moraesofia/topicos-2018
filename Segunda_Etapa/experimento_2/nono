@@ -1,0 +1,240 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Dataset_a_b_1024-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.FCTHFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.JpegCoefficientFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.PHOGFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.BinaryPatternsPyramidFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    1024
+Attributes:   1804
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Spatial Pyramid of Local Binary Patterns575 <= 1
+|   FCTH26 <= 0
+|   |   Spatial Pyramid of Local Binary Patterns360 <= 4: LOW (63.0)
+|   |   Spatial Pyramid of Local Binary Patterns360 > 4
+|   |   |   Spatial Pyramid of Local Binary Patterns39 <= 1: HIGH (2.0)
+|   |   |   Spatial Pyramid of Local Binary Patterns39 > 1: LOW (3.0)
+|   FCTH26 > 0
+|   |   Spatial Pyramid of Local Binary Patterns135 <= 1: HIGH (7.0/1.0)
+|   |   Spatial Pyramid of Local Binary Patterns135 > 1: LOW (8.0)
+Spatial Pyramid of Local Binary Patterns575 > 1
+|   FCTH13 <= 1
+|   |   FCTH131 <= 0
+|   |   |   Spatial Pyramid of Local Binary Patterns453 <= 3
+|   |   |   |   FCTH176 <= 0
+|   |   |   |   |   PHOG507 <= 2
+|   |   |   |   |   |   FCTH79 <= 0
+|   |   |   |   |   |   |   FCTH41 <= 0
+|   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns114 <= 2
+|   |   |   |   |   |   |   |   |   FCTH66 <= 0
+|   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns678 <= 0
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients67 <= 222
+|   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns270 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns341 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG412 <= 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG440 <= 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns682 <= 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns453 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout25 <= 12: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout25 > 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG583 <= 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns729 <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG173 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns619 <= 0: LOW (40.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns619 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG264 <= 1: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG264 > 1: LOW (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG173 > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH31 <= 0: HIGH (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH31 > 0: LOW (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns729 > 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns393 <= 0: HIGH (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns393 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG583 > 11: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns453 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns5 <= 1: HIGH (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns5 > 1: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns682 > 13: LOW (18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG440 > 10: HIGH (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG412 > 10: HIGH (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns341 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns245 <= 0: HIGH (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns245 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns270 > 1: HIGH (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients67 > 222: LOW (26.0)
+|   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns678 > 0: LOW (9.0)
+|   |   |   |   |   |   |   |   |   FCTH66 > 0: LOW (21.0/1.0)
+|   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns114 > 2
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 <= 17: HIGH (10.0)
+|   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 > 17: LOW (3.0)
+|   |   |   |   |   |   |   FCTH41 > 0: LOW (17.0)
+|   |   |   |   |   |   FCTH79 > 0
+|   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns245 <= 0
+|   |   |   |   |   |   |   |   FCTH28 <= 0: HIGH (14.0/1.0)
+|   |   |   |   |   |   |   |   FCTH28 > 0: LOW (2.0)
+|   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns245 > 0: LOW (2.0)
+|   |   |   |   |   PHOG507 > 2
+|   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns353 <= 0
+|   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns242 <= 2
+|   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns209 <= 0
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients80 <= 165
+|   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns397 <= 7
+|   |   |   |   |   |   |   |   |   |   |   PHOG318 <= 12
+|   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns263 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns299 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns570 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG505 <= 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns214 <= 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns688 <= 11: LOW (59.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns688 > 11: HIGH (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns214 > 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns118 <= 0: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns118 > 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG505 > 10: HIGH (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns570 > 0: HIGH (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns299 > 0: HIGH (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns263 > 0: HIGH (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   PHOG318 > 12: HIGH (5.0)
+|   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns397 > 7
+|   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns376 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns90 <= 0: LOW (13.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns90 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns376 > 2
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG458 <= 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns335 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG148 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns273 <= 1: LOW (14.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns273 > 1: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG148 > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns275 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients150 <= 165
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns449 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns633 <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG349 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns240 <= 0: LOW (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns240 > 0: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG349 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns226 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG262 <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG628 <= 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH128 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG20 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns437 <= 1: HIGH (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns437 > 1: LOW (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG20 > 1: HIGH (78.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FCTH128 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout14 <= 16: HIGH (16.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout14 > 16: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG628 > 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns465 <= 0: HIGH (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns465 > 0: LOW (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG262 > 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns296 <= 9: LOW (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns296 > 9: HIGH (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns226 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns421 <= 0: LOW (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns421 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns277 <= 0: LOW (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns277 > 0: HIGH (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns633 > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG510 <= 11: LOW (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PHOG510 > 11: HIGH (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns449 > 0: HIGH (20.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients150 > 165
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns429 <= 1: LOW (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns429 > 1: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns275 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns411 <= 1: LOW (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns411 > 1: HIGH (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns335 > 0: HIGH (14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   PHOG458 > 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients68 <= 66: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients68 > 66: LOW (12.0)
+|   |   |   |   |   |   |   |   |   Histogram of JPEG Coefficients80 > 165
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout24 <= 13: LOW (4.0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout24 > 13
+|   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns643 <= 1: HIGH (55.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns643 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns46 <= 0: HIGH (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns46 > 0: LOW (3.0)
+|   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns209 > 0
+|   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns202 <= 0
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 <= 13: HIGH (2.0)
+|   |   |   |   |   |   |   |   |   |   MPEG-7 Color Layout8 > 13: LOW (19.0)
+|   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns202 > 0: HIGH (4.0)
+|   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns242 > 2
+|   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns251 <= 6: LOW (2.0)
+|   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns251 > 6: HIGH (24.0)
+|   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns353 > 0
+|   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns731 <= 0
+|   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns508 <= 9
+|   |   |   |   |   |   |   |   |   PHOG122 <= 13: LOW (21.0)
+|   |   |   |   |   |   |   |   |   PHOG122 > 13: HIGH (2.0)
+|   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns508 > 9: HIGH (4.0)
+|   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns731 > 0: HIGH (2.0)
+|   |   |   |   FCTH176 > 0
+|   |   |   |   |   Spatial Pyramid of Local Binary Patterns256 <= 10
+|   |   |   |   |   |   Histogram of JPEG Coefficients160 <= 196
+|   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns558 <= 1
+|   |   |   |   |   |   |   |   FCTH81 <= 0: HIGH (48.0/1.0)
+|   |   |   |   |   |   |   |   FCTH81 > 0: LOW (3.0/1.0)
+|   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns558 > 1: LOW (4.0/1.0)
+|   |   |   |   |   |   Histogram of JPEG Coefficients160 > 196: LOW (4.0)
+|   |   |   |   |   Spatial Pyramid of Local Binary Patterns256 > 10: LOW (5.0)
+|   |   |   Spatial Pyramid of Local Binary Patterns453 > 3
+|   |   |   |   Spatial Pyramid of Local Binary Patterns426 <= 0
+|   |   |   |   |   Spatial Pyramid of Local Binary Patterns422 <= 3: LOW (29.0/1.0)
+|   |   |   |   |   Spatial Pyramid of Local Binary Patterns422 > 3: HIGH (2.0)
+|   |   |   |   Spatial Pyramid of Local Binary Patterns426 > 0: HIGH (3.0)
+|   |   FCTH131 > 0
+|   |   |   Spatial Pyramid of Local Binary Patterns385 <= 1
+|   |   |   |   PHOG584 <= 0: LOW (2.0)
+|   |   |   |   PHOG584 > 0: HIGH (27.0)
+|   |   |   Spatial Pyramid of Local Binary Patterns385 > 1: LOW (3.0)
+|   FCTH13 > 1
+|   |   Spatial Pyramid of Local Binary Patterns347 <= 0
+|   |   |   PHOG381 <= 13
+|   |   |   |   Histogram of JPEG Coefficients54 <= 11: LOW (3.0/1.0)
+|   |   |   |   Histogram of JPEG Coefficients54 > 11: HIGH (44.0)
+|   |   |   PHOG381 > 13: LOW (4.0/1.0)
+|   |   Spatial Pyramid of Local Binary Patterns347 > 0: LOW (3.0)
+
+Number of Leaves  : 	96
+
+Size of the tree : 	191
+
+
+Time taken to build model: 2.25 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.01 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         176               57.329  %
+Incorrectly Classified Instances       131               42.671  %
+Kappa statistic                          0.1467
+Mean absolute error                      0.4183
+Root mean squared error                  0.6289
+Relative absolute error                 83.5964 %
+Root relative squared error            125.6581 %
+Total Number of Instances              307     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,578    0,431    0,552      0,578    0,565      0,147    0,608     0,564     LOW
+                 0,569    0,422    0,595      0,569    0,581      0,147    0,608     0,588     HIGH
+Weighted Avg.    0,573    0,426    0,574      0,573    0,573      0,147    0,608     0,576     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 85 62 |  a = LOW
+ 69 91 |  b = HIGH
+

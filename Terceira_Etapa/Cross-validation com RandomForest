@@ -1,0 +1,44 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     Dataset_a_b_1024-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.FCTHFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.JpegCoefficientFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.instance.imagefilter.PHOGFilter-D/home/sofia/topicos/Segunda_Etapa/animals_buildings_set-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    1024
+Attributes:   1048
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 1.04 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         686               66.9922 %
+Incorrectly Classified Instances       338               33.0078 %
+Kappa statistic                          0.3398
+Mean absolute error                      0.4454
+Root mean squared error                  0.4616
+Relative absolute error                 89.0758 %
+Root relative squared error             92.3191 %
+Total Number of Instances             1024     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,678    0,338    0,667      0,678    0,672      0,340    0,739     0,726     LOW
+                 0,662    0,322    0,673      0,662    0,667      0,340    0,739     0,722     HIGH
+Weighted Avg.    0,670    0,330    0,670      0,670    0,670      0,340    0,739     0,724     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 347 165 |   a = LOW
+ 173 339 |   b = HIGH
+

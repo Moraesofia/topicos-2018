@@ -1,0 +1,66 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Dataset_anm_64-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/animals-weka.filters.unsupervised.instance.imagefilter.PHOGFilter-D/home/sofia/topicos/animals-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    64
+Attributes:   664
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+PHOG473 <= 0: LOW (15.0)
+PHOG473 > 0
+|   PHOG414 <= 12
+|   |   PHOG177 <= 11
+|   |   |   PHOG471 <= 10
+|   |   |   |   PHOG350 <= 11
+|   |   |   |   |   PHOG426 <= 13
+|   |   |   |   |   |   PHOG450 <= 14: HIGH (29.0)
+|   |   |   |   |   |   PHOG450 > 14
+|   |   |   |   |   |   |   PHOG36 <= 11: LOW (2.0)
+|   |   |   |   |   |   |   PHOG36 > 11: HIGH (3.0)
+|   |   |   |   |   PHOG426 > 13: LOW (2.0)
+|   |   |   |   PHOG350 > 11: LOW (2.0)
+|   |   |   PHOG471 > 10: LOW (3.0)
+|   |   PHOG177 > 11: LOW (3.0)
+|   PHOG414 > 12: LOW (5.0)
+
+Number of Leaves  : 	9
+
+Size of the tree : 	17
+
+
+Time taken to build model: 0.03 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances           5               26.3158 %
+Incorrectly Classified Instances        14               73.6842 %
+Kappa statistic                         -0.4615
+Mean absolute error                      0.7368
+Root mean squared error                  0.8584
+Relative absolute error                147.2036 %
+Root relative squared error            171.4484 %
+Total Number of Instances               19     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,333    0,800    0,273      0,333    0,300      -0,472   0,267     0,407     LOW
+                 0,200    0,667    0,250      0,200    0,222      -0,472   0,267     0,471     HIGH
+Weighted Avg.    0,263    0,730    0,261      0,263    0,259      -0,472   0,267     0,441     
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 3 6 | a = LOW
+ 8 2 | b = HIGH
+

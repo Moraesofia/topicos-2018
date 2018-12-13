@@ -1,0 +1,72 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     animals_buildings-weka.filters.unsupervised.instance.imagefilter.ColorLayoutFilter-D/home/sofia/topicos/mixed-weka.filters.unsupervised.instance.imagefilter.BinaryPatternsPyramidFilter-D/home/sofia/topicos/mixed-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    128
+Attributes:   790
+              [list of attributes omitted]
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Spatial Pyramid of Local Binary Patterns106 <= 1: LOW (29.0)
+Spatial Pyramid of Local Binary Patterns106 > 1
+|   Spatial Pyramid of Local Binary Patterns436 <= 0: LOW (8.0)
+|   Spatial Pyramid of Local Binary Patterns436 > 0
+|   |   Spatial Pyramid of Local Binary Patterns654 <= 1
+|   |   |   Spatial Pyramid of Local Binary Patterns486 <= 1
+|   |   |   |   Spatial Pyramid of Local Binary Patterns252 <= 8
+|   |   |   |   |   Spatial Pyramid of Local Binary Patterns483 <= 0
+|   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns501 <= 0
+|   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns331 <= 0
+|   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns40 <= 7
+|   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns601 <= 1
+|   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns360 <= 1: LOW (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns360 > 1: HIGH (14.0)
+|   |   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns601 > 1: LOW (3.0)
+|   |   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns40 > 7: LOW (11.0)
+|   |   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns331 > 0: HIGH (5.0)
+|   |   |   |   |   |   Spatial Pyramid of Local Binary Patterns501 > 0: LOW (5.0)
+|   |   |   |   |   Spatial Pyramid of Local Binary Patterns483 > 0: HIGH (6.0/1.0)
+|   |   |   |   Spatial Pyramid of Local Binary Patterns252 > 8: HIGH (19.0)
+|   |   |   Spatial Pyramid of Local Binary Patterns486 > 1: LOW (4.0)
+|   |   Spatial Pyramid of Local Binary Patterns654 > 1: HIGH (20.0)
+
+Number of Leaves  : 	12
+
+Size of the tree : 	23
+
+
+Time taken to build model: 0.05 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          32               84.2105 %
+Incorrectly Classified Instances         6               15.7895 %
+Kappa statistic                          0.6868
+Mean absolute error                      0.1667
+Root mean squared error                  0.3853
+Relative absolute error                 33.2952 %
+Root relative squared error             76.9582 %
+Total Number of Instances               38     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,944    0,250    0,773      0,944    0,850      0,702    0,860     0,774     LOW
+                 0,750    0,056    0,938      0,750    0,833      0,702    0,860     0,856     HIGH
+Weighted Avg.    0,842    0,148    0,859      0,842    0,841      0,702    0,860     0,817     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 17  1 |  a = LOW
+  5 15 |  b = HIGH
+
