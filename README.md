@@ -13,6 +13,9 @@ convert '*.jpg[256x]' -set filename:base "%[base]" "%[filename:base].jpg"
 ```
 -------------------------
 Sofia Moraes
+
 Engenharia de Software
+
 Instituto de Informárica - UFG
+
 2018-12-13
