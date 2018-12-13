@@ -6,6 +6,7 @@ O objetivo do artigo foi de encontrar o melhor modelo possível para o probela d
 - Os datasets utilizados podem ser encontrados no site: https://www.figure-eight.com/data-for-everyone/ com os nomes:
   - How beautiful is this image? (Part 2: Buildings and Architecture); e
   - How beautiful is this image? (Part 3: Animals).
+  Obs.: Algumas imagens dos datasets acida podem possuir suas urls repetidas ou indisponíveis.
 
 - Comando "convert" Linux para conversão do tamanho das imagens:
 ```ruby
