@@ -10,7 +10,7 @@ AutoColorCorrelogramFilter
 BinaryPatternsPyramidFilter
 
 **PIORARAM**
--
+/-
 
 **INUTEIS**
 GaborFilter
